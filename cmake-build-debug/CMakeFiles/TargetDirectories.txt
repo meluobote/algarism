@@ -1,0 +1,3 @@
+D:/code/cplus/algarism/cmake-build-debug/CMakeFiles/algarism.dir
+D:/code/cplus/algarism/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/cplus/algarism/cmake-build-debug/CMakeFiles/rebuild_cache.dir
