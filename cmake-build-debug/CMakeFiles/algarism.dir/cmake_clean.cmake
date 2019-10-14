@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/algarism.dir/Sort.cpp.obj"
   "CMakeFiles/algarism.dir/main.cpp.obj"
   "algarism.exe"
   "algarism.exe.manifest"

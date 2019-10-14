@@ -122,6 +122,33 @@ algarism/fast:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
 .PHONY : algarism/fast
 
+Sort.obj: Sort.cpp.obj
+
+.PHONY : Sort.obj
+
+# target to build an object file
+Sort.cpp.obj:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/Sort.cpp.obj
+.PHONY : Sort.cpp.obj
+
+Sort.i: Sort.cpp.i
+
+.PHONY : Sort.i
+
+# target to preprocess a source file
+Sort.cpp.i:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/Sort.cpp.i
+.PHONY : Sort.cpp.i
+
+Sort.s: Sort.cpp.s
+
+.PHONY : Sort.s
+
+# target to generate assembly for a file
+Sort.cpp.s:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/Sort.cpp.s
+.PHONY : Sort.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... algarism
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Sort.obj
+	@echo ... Sort.i
+	@echo ... Sort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
