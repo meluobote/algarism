@@ -69,29 +69,29 @@ CMakeFiles/algarism.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algarism.dir/main.cpp.s"
 	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplus\algarism\main.cpp -o CMakeFiles\algarism.dir\main.cpp.s
 
-CMakeFiles/algarism.dir/Sort.cpp.obj: CMakeFiles/algarism.dir/flags.make
-CMakeFiles/algarism.dir/Sort.cpp.obj: Sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cplus\algarism\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/algarism.dir/Sort.cpp.obj"
-	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\algarism.dir\Sort.cpp.obj -c D:\code\cplus\algarism\cmake-build-debug\Sort.cpp
+CMakeFiles/algarism.dir/sort.cpp.obj: CMakeFiles/algarism.dir/flags.make
+CMakeFiles/algarism.dir/sort.cpp.obj: ../sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cplus\algarism\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/algarism.dir/sort.cpp.obj"
+	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\algarism.dir\sort.cpp.obj -c D:\code\cplus\algarism\sort.cpp
 
-CMakeFiles/algarism.dir/Sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algarism.dir/Sort.cpp.i"
-	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplus\algarism\cmake-build-debug\Sort.cpp > CMakeFiles\algarism.dir\Sort.cpp.i
+CMakeFiles/algarism.dir/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algarism.dir/sort.cpp.i"
+	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplus\algarism\sort.cpp > CMakeFiles\algarism.dir\sort.cpp.i
 
-CMakeFiles/algarism.dir/Sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algarism.dir/Sort.cpp.s"
-	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplus\algarism\cmake-build-debug\Sort.cpp -o CMakeFiles\algarism.dir\Sort.cpp.s
+CMakeFiles/algarism.dir/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algarism.dir/sort.cpp.s"
+	D:\ProgramData\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplus\algarism\sort.cpp -o CMakeFiles\algarism.dir\sort.cpp.s
 
 # Object files for target algarism
 algarism_OBJECTS = \
 "CMakeFiles/algarism.dir/main.cpp.obj" \
-"CMakeFiles/algarism.dir/Sort.cpp.obj"
+"CMakeFiles/algarism.dir/sort.cpp.obj"
 
 # External object files for target algarism
 algarism_EXTERNAL_OBJECTS =
 
 algarism.exe: CMakeFiles/algarism.dir/main.cpp.obj
-algarism.exe: CMakeFiles/algarism.dir/Sort.cpp.obj
+algarism.exe: CMakeFiles/algarism.dir/sort.cpp.obj
 algarism.exe: CMakeFiles/algarism.dir/build.make
 algarism.exe: CMakeFiles/algarism.dir/linklibs.rsp
 algarism.exe: CMakeFiles/algarism.dir/objects1.rsp
