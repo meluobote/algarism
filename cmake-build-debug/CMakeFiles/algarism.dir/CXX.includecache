@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/code/cplusplus/algarism/sort.cpp
-sort.h
-D:/code/cplusplus/algarism/sort.h
+D:/code/cplusplus/algarism/main.cpp
 iostream
 -
+vector
+-
+string
+-
+sort.h
+D:/code/cplusplus/algarism/sort.h
 
 D:/code/cplusplus/algarism/sort.h
 vector

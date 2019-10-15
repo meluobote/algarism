@@ -15,7 +15,7 @@ public:
     static void bubbleSort(vector<int>& vi);
     static void selectSort(vector<int>& vi);
     static  void insertSort(vector<int>& vi);
-    static void myMaxPileSort(vector<int>& vi);
+    static void MaxPileSort(vector<int>& vi);
 };
 
 
