@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "F:/MinGW/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "F:/MinGW64/mingw64/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "8.2.0")
+set(CMAKE_CXX_COMPILER_VERSION "8.1.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "F:/MinGW/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "F:/MinGW/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "F:/MinGW/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "F:/MinGW/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "F:/MinGW/bin/ld.exe")
+set(CMAKE_AR "F:/MinGW64/mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "F:/MinGW64/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "F:/MinGW64/mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "F:/MinGW64/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "F:/MinGW64/mingw64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -48,7 +48,7 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
-set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
+set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
 set(CMAKE_CXX_COMPILER_ABI "")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
 
@@ -73,7 +73,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "F:/MinGW/lib/gcc/mingw32/8.2.0/include/c++;F:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/mingw32;F:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/backward;F:/MinGW/lib/gcc/mingw32/8.2.0/include;F:/MinGW/include;F:/MinGW/lib/gcc/mingw32/8.2.0/include-fixed")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "F:/MinGW/lib/gcc/mingw32/8.2.0;F:/MinGW/lib/gcc;F:/MinGW/mingw32/lib;F:/MinGW/lib")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "F:/MinGW64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;F:/MinGW64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;F:/MinGW64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;F:/MinGW64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;F:/MinGW64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;F:/MinGW64/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "F:/MinGW64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;F:/MinGW64/mingw64/lib/gcc;F:/MinGW64/mingw64/x86_64-w64-mingw32/lib;F:/MinGW64/mingw64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

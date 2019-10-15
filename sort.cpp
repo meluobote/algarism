@@ -45,11 +45,11 @@ void sort::insertSort(vector<int>& vi){
 
 /* ×î´ó¶ÑÅÅÐò */
 void sort::MaxPileSort(vector<int>& vi){
-    for(int i=vi.size()-1; i>=0;i--){
-        createMaxPile(vi, vi.size()-1, i);
+    for(int  i= static_cast<int >(vi.size()-1); i>=0;i--){
+        createMaxPile(vi, static_cast<int>(vi.size()-1), i);
     }
 
-    for(int i=vi.size()-1;i>0;i--){
+    for(int i=static_cast<int >(vi.size()-1);i>0;i--){
         vi[0]=vi[i]+vi[0] - (vi[i]=vi[0]);
         createMaxPile(vi, i-1, 0);
     }
