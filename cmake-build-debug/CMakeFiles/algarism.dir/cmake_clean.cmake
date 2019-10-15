@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/algarism.dir/sort.cpp.obj"
   "algarism.exe"
   "algarism.exe.manifest"
+  "algarism.lib"
   "algarism.pdb"
-  "libalgarism.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

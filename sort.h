@@ -9,10 +9,13 @@
 using namespace std;
 
 class sort {
+private:
+    static void createMaxPile(vector<int>& vi,int lastIdx, int i);
 public:
     static void bubbleSort(vector<int>& vi);
     static void selectSort(vector<int>& vi);
     static  void insertSort(vector<int>& vi);
+    static void myMaxPileSort(vector<int>& vi);
 };
 
 
