@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/cplusplus/algarism/main.cpp
+iostream
+-
+vector
+-
+sort.h
+D:/code/cplusplus/algarism/sort.h
+
+D:/code/cplusplus/algarism/sort.cpp
+sort.h
+D:/code/cplusplus/algarism/sort.h
+iostream
+-
+
+D:/code/cplusplus/algarism/sort.h
+vector
+-
+

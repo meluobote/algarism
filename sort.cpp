@@ -4,7 +4,7 @@
 
 #include "sort.h"
 #include <iostream>
-/*å†’æ³¡æ’åº*/
+/*Ã°ÅİÅÅĞò*/
 void sort::bubbleSort(vector<int>& vi){
     for(unsigned long long i=vi.size()-2;i>=0;i--){
         for(unsigned long long j=0;j<=i;j++){
@@ -14,6 +14,8 @@ void sort::bubbleSort(vector<int>& vi){
         }
     }
 }
+
+/* Ñ¡ÔñÅÅĞò */
 void sort::selectSort(vector<int>& vi){
     unsigned long long minIdx;
     for(unsigned long long i=0;i<vi.size()-1;i++){
@@ -28,15 +30,50 @@ void sort::selectSort(vector<int>& vi){
         }
     }
 }
-
+/* ²åÈëÅÅĞò */
 void sort::insertSort(vector<int>& vi){
     for(unsigned long long i=1;i<vi.size();i++){
         int tmp=vi[i];
-        unsigned long long j=i-1;   //å·²æ’å¥½åºçš„éƒ¨åˆ†æœ€åä¸€ä¸ªå…ƒç´ 
+        unsigned long long j=i-1;   //ÒÑÅÅºÃĞòµÄ²¿·Ö×îºóÒ»¸öÔªËØ
         while(j>=0 && vi[j]>tmp){
             vi[j+1]=vi[j];
             j--;
         }
         vi[j+1]=tmp;
     }
+}
+
+/* ×î´ó¶ÑÅÅĞò */
+void sort::MaxPileSort(vector<int>& vi){
+    for(int  i= static_cast<int >(vi.size()-1); i>=0;i--){
+        createMaxPile(vi, static_cast<int>(vi.size()-1), i);
+    }
+
+    for(int i=static_cast<int >(vi.size()-1);i>0;i--){
+        vi[0]=vi[i]+vi[0] - (vi[i]=vi[0]);
+        createMaxPile(vi, i-1, 0);
+    }
+}
+
+// Ë÷ÒıÎ»ÖÃiµÄ×óÓÒ×ÓÊ÷¶¼Âú×ã×î´ó¶ÑÖ»ÓĞiĞèÒªÅĞ¶¨Ê±ÓÃµÄº¯Êı
+void sort::createMaxPile(vector<int>& vi,int lastIdx, int i){
+    int subMaxIdx;
+    int left=2*i+1;
+    int right=2*i+2;
+    if(left> lastIdx){
+        return;
+    }else if(left == lastIdx){
+        subMaxIdx=left;
+    }else{
+        subMaxIdx = vi[left]>vi[right]?left:right;
+    }
+
+    if(vi[i]<vi[subMaxIdx]){
+        vi[i]=vi[i]+vi[subMaxIdx] - (vi[subMaxIdx]=vi[i]);
+        createMaxPile(vi, lastIdx, subMaxIdx);
+    }
+}
+/* ¿ìËÙÅÅĞò */
+void sort::quickSort(vector<int>& vi, int start, int end){
+
 }
