@@ -17,6 +17,8 @@ public:
     static  void insertSort(vector<int>& vi);
     static void MaxPileSort(vector<int>& vi);
     static void quickSort(vector<int>& vi, int start, int end);
+
+    static void countSort(vector<int> &v);
 };
 
 

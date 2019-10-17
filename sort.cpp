@@ -4,6 +4,7 @@
 
 #include "sort.h"
 #include <iostream>
+using namespace std;
 /*冒泡排序*/
 void sort::bubbleSort(vector<int>& vi){
     for(unsigned long long i=vi.size()-2;i>=0;i--){
@@ -75,5 +76,40 @@ void sort::createMaxPile(vector<int>& vi,int lastIdx, int i){
 }
 /* 快速排序 */
 void sort::quickSort(vector<int>& vi, int start, int end){
+    if(start>=end)
+        return;
+    int tmp=vi[start];
+    int left=start;
+    int right=end;
+    while(left<right){
+        while(left<right && vi[right]>=tmp) right--;
+        if(left<right){
+            vi[left]=vi[right];
+            left++;
+        }
+        while(left<right && vi[left]<=tmp) left++;
+        if(left<right){
+            vi[right]=vi[left];
+            right--;
+        }
+    }
+    vi[right]=tmp;
+    quickSort(vi,start, right-1);
+    quickSort(vi, right+1, end);
+}
 
+/*计数排序  假设数字的范围是 [0, 9]*/
+void sort::countSort(vector<int>& v){
+    vector<int> val(10, 0);
+    for(auto& i:v){
+        val[i]++;
+    }
+    for(int i=1;i<static_cast<int>(val.size());i++){
+        val[i]+=val[i-1];
+    }
+    vector<int> vcp=v;
+    for(int j=static_cast<int>(v.size()-1);j>=0;j--){
+        v[val[vcp[j]]-1]=vcp[j];
+        val[vcp[j]]-=1;
+    }
 }
