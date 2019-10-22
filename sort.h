@@ -19,6 +19,9 @@ public:
     static void quickSort(vector<int>& vi, int start, int end);
 
     static void countSort(vector<int> &v);
+    static void regdexSort(vector<int>& v, int ws);
+
+    static void guibingSort(vector<int> v, int start, int end);
 };
 
 

@@ -4,6 +4,7 @@
 
 #include "sort.h"
 #include <iostream>
+#include <cmath>
 using namespace std;
 /*冒泡排序*/
 void sort::bubbleSort(vector<int>& vi){
@@ -113,3 +114,32 @@ void sort::countSort(vector<int>& v){
         val[vcp[j]]-=1;
     }
 }
+
+/* 基数排序
+ * 位数： ws 如： 123456  6位
+ * */
+void sort::regdexSort(vector<int>& v, int ws){
+    vector<int> vcp(20);
+    int mi=0;
+
+    while(mi<ws){
+        vector<int> val(10, 0);
+        vcp=v;
+        for(auto& i:v){
+            val[i/static_cast<int>(pow(10,mi))%10]++;
+        }
+
+        for(int i=1;i<val.size();i++){
+            val[i]+=val[i-1];
+        }
+
+        for(int i=vcp.size()-1;i>=0;i--){
+            v[val[vcp[i]/static_cast<int>(pow(10,mi))%10]-1]=vcp[i];
+            val[vcp[i]/static_cast<int>(pow(10,mi))%10]--;
+        }
+
+        mi++;
+    }
+}
+
+
