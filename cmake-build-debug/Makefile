@@ -122,6 +122,33 @@ algarism/fast:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
 .PHONY : algarism/fast
 
+dynamicPro/CutRod.obj: dynamicPro/CutRod.cpp.obj
+
+.PHONY : dynamicPro/CutRod.obj
+
+# target to build an object file
+dynamicPro/CutRod.cpp.obj:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.obj
+.PHONY : dynamicPro/CutRod.cpp.obj
+
+dynamicPro/CutRod.i: dynamicPro/CutRod.cpp.i
+
+.PHONY : dynamicPro/CutRod.i
+
+# target to preprocess a source file
+dynamicPro/CutRod.cpp.i:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.i
+.PHONY : dynamicPro/CutRod.cpp.i
+
+dynamicPro/CutRod.s: dynamicPro/CutRod.cpp.s
+
+.PHONY : dynamicPro/CutRod.s
+
+# target to generate assembly for a file
+dynamicPro/CutRod.cpp.s:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.s
+.PHONY : dynamicPro/CutRod.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... algarism
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... dynamicPro/CutRod.obj
+	@echo ... dynamicPro/CutRod.i
+	@echo ... dynamicPro/CutRod.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

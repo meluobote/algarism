@@ -3,4 +3,4 @@ project(algarism)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(algarism main.cpp sort.cpp sort.h)
+add_executable(algarism main.cpp sort.cpp sort.h dynamicPro/CutRod.cpp dynamicPro/CutRod.h)

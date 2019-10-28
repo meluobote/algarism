@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/CutRod.cpp">
+			<Option target="algarism"/>
+		</Unit>
+		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/CutRod.h">
+			<Option target="algarism"/>
+		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/main.cpp">
 			<Option target="algarism"/>
 		</Unit>

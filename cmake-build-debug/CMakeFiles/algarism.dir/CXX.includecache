@@ -6,13 +6,29 @@
 
 #IncludeRegexTransform: 
 
+D:/code/cplusplus/algarism/dynamicPro/CutRod.h
+map
+-
+set
+-
+vector
+-
+
 D:/code/cplusplus/algarism/main.cpp
 iostream
 -
 vector
 -
+set
+-
 sort.h
 D:/code/cplusplus/algarism/sort.h
+climits
+-
+cmath
+-
+dynamicPro/CutRod.h
+D:/code/cplusplus/algarism/dynamicPro/CutRod.h
 
 D:/code/cplusplus/algarism/sort.h
 vector
