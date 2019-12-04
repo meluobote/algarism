@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.obj"
+  "CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.obj"
   "CMakeFiles/algarism.dir/main.cpp.obj"
   "CMakeFiles/algarism.dir/sort.cpp.obj"
   "algarism.exe"

@@ -122,6 +122,19 @@ algarism/fast:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
 .PHONY : algarism/fast
 
+#=============================================================================
+# Target rules for targets named fibonacci
+
+# Build rule for target.
+fibonacci: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fibonacci
+.PHONY : fibonacci
+
+# fast build rule for target.
+fibonacci/fast:
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
+.PHONY : fibonacci/fast
+
 dynamicPro/CutRod.obj: dynamicPro/CutRod.cpp.obj
 
 .PHONY : dynamicPro/CutRod.obj
@@ -148,6 +161,36 @@ dynamicPro/CutRod.s: dynamicPro/CutRod.cpp.s
 dynamicPro/CutRod.cpp.s:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.s
 .PHONY : dynamicPro/CutRod.cpp.s
+
+dynamicPro/fibonacci.obj: dynamicPro/fibonacci.cpp.obj
+
+.PHONY : dynamicPro/fibonacci.obj
+
+# target to build an object file
+dynamicPro/fibonacci.cpp.obj:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.obj
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.obj
+.PHONY : dynamicPro/fibonacci.cpp.obj
+
+dynamicPro/fibonacci.i: dynamicPro/fibonacci.cpp.i
+
+.PHONY : dynamicPro/fibonacci.i
+
+# target to preprocess a source file
+dynamicPro/fibonacci.cpp.i:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.i
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.i
+.PHONY : dynamicPro/fibonacci.cpp.i
+
+dynamicPro/fibonacci.s: dynamicPro/fibonacci.cpp.s
+
+.PHONY : dynamicPro/fibonacci.s
+
+# target to generate assembly for a file
+dynamicPro/fibonacci.cpp.s:
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.s
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.s
+.PHONY : dynamicPro/fibonacci.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -210,11 +253,15 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... algarism
+	@echo ... fibonacci
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dynamicPro/CutRod.obj
 	@echo ... dynamicPro/CutRod.i
 	@echo ... dynamicPro/CutRod.s
+	@echo ... dynamicPro/fibonacci.obj
+	@echo ... dynamicPro/fibonacci.i
+	@echo ... dynamicPro/fibonacci.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

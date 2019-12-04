@@ -53,11 +53,13 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/algarism.dir/all
+all: CMakeFiles/fibonacci.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/algarism.dir/clean
+clean: CMakeFiles/fibonacci.dir/clean
 
 .PHONY : clean
 
@@ -73,12 +75,12 @@ preinstall:
 CMakeFiles/algarism.dir/all:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/depend
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target algarism"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target algarism"
 .PHONY : CMakeFiles/algarism.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algarism.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/algarism.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/algarism.dir/rule
@@ -92,6 +94,33 @@ algarism: CMakeFiles/algarism.dir/rule
 CMakeFiles/algarism.dir/clean:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/clean
 .PHONY : CMakeFiles/algarism.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fibonacci.dir
+
+# All Build rule for target.
+CMakeFiles/fibonacci.dir/all:
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/depend
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target fibonacci"
+.PHONY : CMakeFiles/fibonacci.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fibonacci.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/fibonacci.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/fibonacci.dir/rule
+
+# Convenience name for target.
+fibonacci: CMakeFiles/fibonacci.dir/rule
+
+.PHONY : fibonacci
+
+# clean rule for target.
+CMakeFiles/fibonacci.dir/clean:
+	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/clean
+.PHONY : CMakeFiles/fibonacci.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
