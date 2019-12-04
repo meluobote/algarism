@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -168,7 +168,6 @@ dynamicPro/fibonacci.obj: dynamicPro/fibonacci.cpp.obj
 
 # target to build an object file
 dynamicPro/fibonacci.cpp.obj:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.obj
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.obj
 .PHONY : dynamicPro/fibonacci.cpp.obj
 
@@ -178,7 +177,6 @@ dynamicPro/fibonacci.i: dynamicPro/fibonacci.cpp.i
 
 # target to preprocess a source file
 dynamicPro/fibonacci.cpp.i:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.i
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.i
 .PHONY : dynamicPro/fibonacci.cpp.i
 
@@ -188,7 +186,6 @@ dynamicPro/fibonacci.s: dynamicPro/fibonacci.cpp.s
 
 # target to generate assembly for a file
 dynamicPro/fibonacci.cpp.s:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/fibonacci.cpp.s
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.s
 .PHONY : dynamicPro/fibonacci.cpp.s
 
