@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -55,27 +55,27 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -134,6 +134,46 @@ fibonacci: cmake_check_build_system
 fibonacci/fast:
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
 .PHONY : fibonacci/fast
+
+#=============================================================================
+# Target rules for targets named BestTaskDeploy
+
+# Build rule for target.
+BestTaskDeploy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 BestTaskDeploy
+.PHONY : BestTaskDeploy
+
+# fast build rule for target.
+BestTaskDeploy/fast:
+	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/build
+.PHONY : BestTaskDeploy/fast
+
+dynamicPro/BestTaskDeploy.obj: dynamicPro/BestTaskDeploy.cpp.obj
+
+.PHONY : dynamicPro/BestTaskDeploy.obj
+
+# target to build an object file
+dynamicPro/BestTaskDeploy.cpp.obj:
+	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.obj
+.PHONY : dynamicPro/BestTaskDeploy.cpp.obj
+
+dynamicPro/BestTaskDeploy.i: dynamicPro/BestTaskDeploy.cpp.i
+
+.PHONY : dynamicPro/BestTaskDeploy.i
+
+# target to preprocess a source file
+dynamicPro/BestTaskDeploy.cpp.i:
+	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.i
+.PHONY : dynamicPro/BestTaskDeploy.cpp.i
+
+dynamicPro/BestTaskDeploy.s: dynamicPro/BestTaskDeploy.cpp.s
+
+.PHONY : dynamicPro/BestTaskDeploy.s
+
+# target to generate assembly for a file
+dynamicPro/BestTaskDeploy.cpp.s:
+	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.s
+.PHONY : dynamicPro/BestTaskDeploy.cpp.s
 
 dynamicPro/CutRod.obj: dynamicPro/CutRod.cpp.obj
 
@@ -251,8 +291,12 @@ help:
 	@echo ... depend
 	@echo ... algarism
 	@echo ... fibonacci
-	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BestTaskDeploy
+	@echo ... edit_cache
+	@echo ... dynamicPro/BestTaskDeploy.obj
+	@echo ... dynamicPro/BestTaskDeploy.i
+	@echo ... dynamicPro/BestTaskDeploy.s
 	@echo ... dynamicPro/CutRod.obj
 	@echo ... dynamicPro/CutRod.i
 	@echo ... dynamicPro/CutRod.s
