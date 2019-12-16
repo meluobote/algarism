@@ -6,7 +6,6 @@
 .idea
 *.iml
 *.log
-cmake-build-debug/CMakeFiles/CMakeOutput.log
 out
 gen
 cmake-build-debug/CMakeFiles/clion-log.txt

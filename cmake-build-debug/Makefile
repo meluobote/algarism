@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -108,6 +108,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named longestIncreasingSubSequence
+
+# Build rule for target.
+longestIncreasingSubSequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 longestIncreasingSubSequence
+.PHONY : longestIncreasingSubSequence
+
+# fast build rule for target.
+longestIncreasingSubSequence/fast:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
+.PHONY : longestIncreasingSubSequence/fast
 
 #=============================================================================
 # Target rules for targets named algarism
@@ -229,6 +242,36 @@ dynamicPro/fibonacci.cpp.s:
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.s
 .PHONY : dynamicPro/fibonacci.cpp.s
 
+dynamicPro/longestIncreasingSubSequence.obj: dynamicPro/longestIncreasingSubSequence.cpp.obj
+
+.PHONY : dynamicPro/longestIncreasingSubSequence.obj
+
+# target to build an object file
+dynamicPro/longestIncreasingSubSequence.cpp.obj:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj
+.PHONY : dynamicPro/longestIncreasingSubSequence.cpp.obj
+
+dynamicPro/longestIncreasingSubSequence.i: dynamicPro/longestIncreasingSubSequence.cpp.i
+
+.PHONY : dynamicPro/longestIncreasingSubSequence.i
+
+# target to preprocess a source file
+dynamicPro/longestIncreasingSubSequence.cpp.i:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.i
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/longestIncreasingSubSequence.cpp.i
+.PHONY : dynamicPro/longestIncreasingSubSequence.cpp.i
+
+dynamicPro/longestIncreasingSubSequence.s: dynamicPro/longestIncreasingSubSequence.cpp.s
+
+.PHONY : dynamicPro/longestIncreasingSubSequence.s
+
+# target to generate assembly for a file
+dynamicPro/longestIncreasingSubSequence.cpp.s:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.s
+	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/longestIncreasingSubSequence.cpp.s
+.PHONY : dynamicPro/longestIncreasingSubSequence.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -289,6 +332,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... longestIncreasingSubSequence
 	@echo ... algarism
 	@echo ... fibonacci
 	@echo ... rebuild_cache
@@ -303,6 +347,9 @@ help:
 	@echo ... dynamicPro/fibonacci.obj
 	@echo ... dynamicPro/fibonacci.i
 	@echo ... dynamicPro/fibonacci.s
+	@echo ... dynamicPro/longestIncreasingSubSequence.obj
+	@echo ... dynamicPro/longestIncreasingSubSequence.i
+	@echo ... dynamicPro/longestIncreasingSubSequence.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

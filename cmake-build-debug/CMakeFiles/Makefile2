@@ -34,10 +34,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/longestIncreasingSubSequence.dir/all
 all: CMakeFiles/algarism.dir/all
 all: CMakeFiles/fibonacci.dir/all
 all: CMakeFiles/BestTaskDeploy.dir/all
@@ -59,6 +60,7 @@ all: CMakeFiles/BestTaskDeploy.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/longestIncreasingSubSequence.dir/clean
 clean: CMakeFiles/algarism.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 clean: CMakeFiles/BestTaskDeploy.dir/clean
@@ -71,18 +73,45 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/longestIncreasingSubSequence.dir
+
+# All Build rule for target.
+CMakeFiles/longestIncreasingSubSequence.dir/all:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/depend
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target longestIncreasingSubSequence"
+.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/longestIncreasingSubSequence.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longestIncreasingSubSequence.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/rule
+
+# Convenience name for target.
+longestIncreasingSubSequence: CMakeFiles/longestIncreasingSubSequence.dir/rule
+
+.PHONY : longestIncreasingSubSequence
+
+# clean rule for target.
+CMakeFiles/longestIncreasingSubSequence.dir/clean:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/clean
+.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/algarism.dir
 
 # All Build rule for target.
 CMakeFiles/algarism.dir/all:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/depend
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6 "Built target algarism"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6,7 "Built target algarism"
 .PHONY : CMakeFiles/algarism.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algarism.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/algarism.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/algarism.dir/rule
@@ -104,7 +133,7 @@ CMakeFiles/algarism.dir/clean:
 CMakeFiles/fibonacci.dir/all:
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/depend
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target fibonacci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target fibonacci"
 .PHONY : CMakeFiles/fibonacci.dir/all
 
 # Build rule for subdir invocation for target.
