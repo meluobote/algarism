@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/algarism.dir/DependInfo.cmake"
   "CMakeFiles/fibonacci.dir/DependInfo.cmake"
   "CMakeFiles/BestTaskDeploy.dir/DependInfo.cmake"
+  "CMakeFiles/longestCommonSubSequence.dir/DependInfo.cmake"
   )

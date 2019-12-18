@@ -161,6 +161,19 @@ BestTaskDeploy/fast:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/build
 .PHONY : BestTaskDeploy/fast
 
+#=============================================================================
+# Target rules for targets named longestCommonSubSequence
+
+# Build rule for target.
+longestCommonSubSequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 longestCommonSubSequence
+.PHONY : longestCommonSubSequence
+
+# fast build rule for target.
+longestCommonSubSequence/fast:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
+.PHONY : longestCommonSubSequence/fast
+
 dynamicPro/BestTaskDeploy.obj: dynamicPro/BestTaskDeploy.cpp.obj
 
 .PHONY : dynamicPro/BestTaskDeploy.obj
@@ -242,6 +255,33 @@ dynamicPro/fibonacci.cpp.s:
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.s
 .PHONY : dynamicPro/fibonacci.cpp.s
 
+dynamicPro/longestCommonSubSequence.obj: dynamicPro/longestCommonSubSequence.cpp.obj
+
+.PHONY : dynamicPro/longestCommonSubSequence.obj
+
+# target to build an object file
+dynamicPro/longestCommonSubSequence.cpp.obj:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/dynamicPro/longestCommonSubSequence.cpp.obj
+.PHONY : dynamicPro/longestCommonSubSequence.cpp.obj
+
+dynamicPro/longestCommonSubSequence.i: dynamicPro/longestCommonSubSequence.cpp.i
+
+.PHONY : dynamicPro/longestCommonSubSequence.i
+
+# target to preprocess a source file
+dynamicPro/longestCommonSubSequence.cpp.i:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/dynamicPro/longestCommonSubSequence.cpp.i
+.PHONY : dynamicPro/longestCommonSubSequence.cpp.i
+
+dynamicPro/longestCommonSubSequence.s: dynamicPro/longestCommonSubSequence.cpp.s
+
+.PHONY : dynamicPro/longestCommonSubSequence.s
+
+# target to generate assembly for a file
+dynamicPro/longestCommonSubSequence.cpp.s:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/dynamicPro/longestCommonSubSequence.cpp.s
+.PHONY : dynamicPro/longestCommonSubSequence.cpp.s
+
 dynamicPro/longestIncreasingSubSequence.obj: dynamicPro/longestIncreasingSubSequence.cpp.obj
 
 .PHONY : dynamicPro/longestIncreasingSubSequence.obj
@@ -249,7 +289,6 @@ dynamicPro/longestIncreasingSubSequence.obj: dynamicPro/longestIncreasingSubSequ
 # target to build an object file
 dynamicPro/longestIncreasingSubSequence.cpp.obj:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj
 .PHONY : dynamicPro/longestIncreasingSubSequence.cpp.obj
 
 dynamicPro/longestIncreasingSubSequence.i: dynamicPro/longestIncreasingSubSequence.cpp.i
@@ -259,7 +298,6 @@ dynamicPro/longestIncreasingSubSequence.i: dynamicPro/longestIncreasingSubSequen
 # target to preprocess a source file
 dynamicPro/longestIncreasingSubSequence.cpp.i:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.i
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/longestIncreasingSubSequence.cpp.i
 .PHONY : dynamicPro/longestIncreasingSubSequence.cpp.i
 
 dynamicPro/longestIncreasingSubSequence.s: dynamicPro/longestIncreasingSubSequence.cpp.s
@@ -269,7 +307,6 @@ dynamicPro/longestIncreasingSubSequence.s: dynamicPro/longestIncreasingSubSequen
 # target to generate assembly for a file
 dynamicPro/longestIncreasingSubSequence.cpp.s:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.s
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/longestIncreasingSubSequence.cpp.s
 .PHONY : dynamicPro/longestIncreasingSubSequence.cpp.s
 
 main.obj: main.cpp.obj
@@ -337,6 +374,7 @@ help:
 	@echo ... fibonacci
 	@echo ... rebuild_cache
 	@echo ... BestTaskDeploy
+	@echo ... longestCommonSubSequence
 	@echo ... edit_cache
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
@@ -347,6 +385,9 @@ help:
 	@echo ... dynamicPro/fibonacci.obj
 	@echo ... dynamicPro/fibonacci.i
 	@echo ... dynamicPro/fibonacci.s
+	@echo ... dynamicPro/longestCommonSubSequence.obj
+	@echo ... dynamicPro/longestCommonSubSequence.i
+	@echo ... dynamicPro/longestCommonSubSequence.s
 	@echo ... dynamicPro/longestIncreasingSubSequence.obj
 	@echo ... dynamicPro/longestIncreasingSubSequence.i
 	@echo ... dynamicPro/longestIncreasingSubSequence.s
