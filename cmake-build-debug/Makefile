@@ -174,6 +174,19 @@ longestCommonSubSequence/fast:
 	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
 .PHONY : longestCommonSubSequence/fast
 
+#=============================================================================
+# Target rules for targets named RodCutting
+
+# Build rule for target.
+RodCutting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RodCutting
+.PHONY : RodCutting
+
+# fast build rule for target.
+RodCutting/fast:
+	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/build
+.PHONY : RodCutting/fast
+
 dynamicPro/BestTaskDeploy.obj: dynamicPro/BestTaskDeploy.cpp.obj
 
 .PHONY : dynamicPro/BestTaskDeploy.obj
@@ -227,6 +240,33 @@ dynamicPro/CutRod.s: dynamicPro/CutRod.cpp.s
 dynamicPro/CutRod.cpp.s:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.s
 .PHONY : dynamicPro/CutRod.cpp.s
+
+dynamicPro/RodCutting.obj: dynamicPro/RodCutting.cpp.obj
+
+.PHONY : dynamicPro/RodCutting.obj
+
+# target to build an object file
+dynamicPro/RodCutting.cpp.obj:
+	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.obj
+.PHONY : dynamicPro/RodCutting.cpp.obj
+
+dynamicPro/RodCutting.i: dynamicPro/RodCutting.cpp.i
+
+.PHONY : dynamicPro/RodCutting.i
+
+# target to preprocess a source file
+dynamicPro/RodCutting.cpp.i:
+	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.i
+.PHONY : dynamicPro/RodCutting.cpp.i
+
+dynamicPro/RodCutting.s: dynamicPro/RodCutting.cpp.s
+
+.PHONY : dynamicPro/RodCutting.s
+
+# target to generate assembly for a file
+dynamicPro/RodCutting.cpp.s:
+	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.s
+.PHONY : dynamicPro/RodCutting.cpp.s
 
 dynamicPro/fibonacci.obj: dynamicPro/fibonacci.cpp.obj
 
@@ -375,6 +415,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... BestTaskDeploy
 	@echo ... longestCommonSubSequence
+	@echo ... RodCutting
 	@echo ... edit_cache
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
@@ -382,6 +423,9 @@ help:
 	@echo ... dynamicPro/CutRod.obj
 	@echo ... dynamicPro/CutRod.i
 	@echo ... dynamicPro/CutRod.s
+	@echo ... dynamicPro/RodCutting.obj
+	@echo ... dynamicPro/RodCutting.i
+	@echo ... dynamicPro/RodCutting.s
 	@echo ... dynamicPro/fibonacci.obj
 	@echo ... dynamicPro/fibonacci.i
 	@echo ... dynamicPro/fibonacci.s
