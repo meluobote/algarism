@@ -148,6 +148,46 @@ BestTaskDeploy/fast:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/build
 .PHONY : BestTaskDeploy/fast
 
+#=============================================================================
+# Target rules for targets named singleLinkedListHuiWenVertify
+
+# Build rule for target.
+singleLinkedListHuiWenVertify: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 singleLinkedListHuiWenVertify
+.PHONY : singleLinkedListHuiWenVertify
+
+# fast build rule for target.
+singleLinkedListHuiWenVertify/fast:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
+.PHONY : singleLinkedListHuiWenVertify/fast
+
+LinkedList/singleLinkedListHuiWenVertify.obj: LinkedList/singleLinkedListHuiWenVertify.cpp.obj
+
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.obj
+
+# target to build an object file
+LinkedList/singleLinkedListHuiWenVertify.cpp.obj:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/LinkedList/singleLinkedListHuiWenVertify.cpp.obj
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.cpp.obj
+
+LinkedList/singleLinkedListHuiWenVertify.i: LinkedList/singleLinkedListHuiWenVertify.cpp.i
+
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.i
+
+# target to preprocess a source file
+LinkedList/singleLinkedListHuiWenVertify.cpp.i:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/LinkedList/singleLinkedListHuiWenVertify.cpp.i
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.cpp.i
+
+LinkedList/singleLinkedListHuiWenVertify.s: LinkedList/singleLinkedListHuiWenVertify.cpp.s
+
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.s
+
+# target to generate assembly for a file
+LinkedList/singleLinkedListHuiWenVertify.cpp.s:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/LinkedList/singleLinkedListHuiWenVertify.cpp.s
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.cpp.s
+
 dynamicPro/BestTaskDeploy.obj: dynamicPro/BestTaskDeploy.cpp.obj
 
 .PHONY : dynamicPro/BestTaskDeploy.obj
@@ -293,7 +333,11 @@ help:
 	@echo ... fibonacci
 	@echo ... rebuild_cache
 	@echo ... BestTaskDeploy
+	@echo ... singleLinkedListHuiWenVertify
 	@echo ... edit_cache
+	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
+	@echo ... LinkedList/singleLinkedListHuiWenVertify.i
+	@echo ... LinkedList/singleLinkedListHuiWenVertify.s
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
 	@echo ... dynamicPro/BestTaskDeploy.s

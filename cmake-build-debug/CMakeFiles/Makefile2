@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 all: CMakeFiles/algarism.dir/all
 all: CMakeFiles/fibonacci.dir/all
 all: CMakeFiles/BestTaskDeploy.dir/all
+all: CMakeFiles/singleLinkedListHuiWenVertify.dir/all
 
 .PHONY : all
 
@@ -62,6 +63,7 @@ all: CMakeFiles/BestTaskDeploy.dir/all
 clean: CMakeFiles/algarism.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 clean: CMakeFiles/BestTaskDeploy.dir/clean
+clean: CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
 
 .PHONY : clean
 
@@ -150,6 +152,33 @@ BestTaskDeploy: CMakeFiles/BestTaskDeploy.dir/rule
 CMakeFiles/BestTaskDeploy.dir/clean:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/clean
 .PHONY : CMakeFiles/BestTaskDeploy.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/singleLinkedListHuiWenVertify.dir
+
+# All Build rule for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/all:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/depend
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target singleLinkedListHuiWenVertify"
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+
+# Convenience name for target.
+singleLinkedListHuiWenVertify: CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+
+.PHONY : singleLinkedListHuiWenVertify
+
+# clean rule for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/clean:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

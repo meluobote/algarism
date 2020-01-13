@@ -159,6 +159,50 @@
 					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="singleLinkedListHuiWenVertify">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/singleLinkedListHuiWenVertify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:\MinGW64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 singleLinkedListHuiWenVertify"/>
+					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singleLinkedListHuiWenVertify/fast">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/singleLinkedListHuiWenVertify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:\MinGW64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 singleLinkedListHuiWenVertify/fast"/>
+					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
 				<Option type="4"/>
@@ -170,6 +214,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/code/cplusplus/algarism/LinkedList/singleLinkedListHuiWenVertify.cpp">
+			<Option target="singleLinkedListHuiWenVertify"/>
+		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/BestTaskDeploy.cpp">
 			<Option target="BestTaskDeploy"/>
 		</Unit>
