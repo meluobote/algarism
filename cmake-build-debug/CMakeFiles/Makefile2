@@ -54,8 +54,10 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/longestIncreasingSubSequence.dir/all
 all: CMakeFiles/algarism.dir/all
+all: CMakeFiles/yueSeFuHuan.dir/all
 all: CMakeFiles/fibonacci.dir/all
 all: CMakeFiles/BestTaskDeploy.dir/all
+all: CMakeFiles/singleLinkedListHuiWenVertify.dir/all
 all: CMakeFiles/longestCommonSubSequence.dir/all
 all: CMakeFiles/RodCutting.dir/all
 
@@ -64,8 +66,10 @@ all: CMakeFiles/RodCutting.dir/all
 # The main recursive "clean" target.
 clean: CMakeFiles/longestIncreasingSubSequence.dir/clean
 clean: CMakeFiles/algarism.dir/clean
+clean: CMakeFiles/yueSeFuHuan.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 clean: CMakeFiles/BestTaskDeploy.dir/clean
+clean: CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
 clean: CMakeFiles/longestCommonSubSequence.dir/clean
 clean: CMakeFiles/RodCutting.dir/clean
 
@@ -131,6 +135,33 @@ CMakeFiles/algarism.dir/clean:
 .PHONY : CMakeFiles/algarism.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/yueSeFuHuan.dir
+
+# All Build rule for target.
+CMakeFiles/yueSeFuHuan.dir/all:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/depend
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target yueSeFuHuan"
+.PHONY : CMakeFiles/yueSeFuHuan.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/yueSeFuHuan.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/yueSeFuHuan.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/yueSeFuHuan.dir/rule
+
+# Convenience name for target.
+yueSeFuHuan: CMakeFiles/yueSeFuHuan.dir/rule
+
+.PHONY : yueSeFuHuan
+
+# clean rule for target.
+CMakeFiles/yueSeFuHuan.dir/clean:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/clean
+.PHONY : CMakeFiles/yueSeFuHuan.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/fibonacci.dir
 
 # All Build rule for target.
@@ -183,6 +214,33 @@ BestTaskDeploy: CMakeFiles/BestTaskDeploy.dir/rule
 CMakeFiles/BestTaskDeploy.dir/clean:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/clean
 .PHONY : CMakeFiles/BestTaskDeploy.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/singleLinkedListHuiWenVertify.dir
+
+# All Build rule for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/all:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/depend
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target singleLinkedListHuiWenVertify"
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+
+# Convenience name for target.
+singleLinkedListHuiWenVertify: CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+
+.PHONY : singleLinkedListHuiWenVertify
+
+# clean rule for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/clean:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/longestCommonSubSequence.dir

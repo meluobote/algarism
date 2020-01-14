@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -136,6 +136,19 @@ algarism/fast:
 .PHONY : algarism/fast
 
 #=============================================================================
+# Target rules for targets named yueSeFuHuan
+
+# Build rule for target.
+yueSeFuHuan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 yueSeFuHuan
+.PHONY : yueSeFuHuan
+
+# fast build rule for target.
+yueSeFuHuan/fast:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
+.PHONY : yueSeFuHuan/fast
+
+#=============================================================================
 # Target rules for targets named fibonacci
 
 # Build rule for target.
@@ -162,6 +175,19 @@ BestTaskDeploy/fast:
 .PHONY : BestTaskDeploy/fast
 
 #=============================================================================
+# Target rules for targets named singleLinkedListHuiWenVertify
+
+# Build rule for target.
+singleLinkedListHuiWenVertify: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 singleLinkedListHuiWenVertify
+.PHONY : singleLinkedListHuiWenVertify
+
+# fast build rule for target.
+singleLinkedListHuiWenVertify/fast:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
+.PHONY : singleLinkedListHuiWenVertify/fast
+
+#=============================================================================
 # Target rules for targets named longestCommonSubSequence
 
 # Build rule for target.
@@ -186,6 +212,60 @@ RodCutting: cmake_check_build_system
 RodCutting/fast:
 	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/build
 .PHONY : RodCutting/fast
+
+LinkedList/singleLinkedListHuiWenVertify.obj: LinkedList/singleLinkedListHuiWenVertify.cpp.obj
+
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.obj
+
+# target to build an object file
+LinkedList/singleLinkedListHuiWenVertify.cpp.obj:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/LinkedList/singleLinkedListHuiWenVertify.cpp.obj
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.cpp.obj
+
+LinkedList/singleLinkedListHuiWenVertify.i: LinkedList/singleLinkedListHuiWenVertify.cpp.i
+
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.i
+
+# target to preprocess a source file
+LinkedList/singleLinkedListHuiWenVertify.cpp.i:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/LinkedList/singleLinkedListHuiWenVertify.cpp.i
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.cpp.i
+
+LinkedList/singleLinkedListHuiWenVertify.s: LinkedList/singleLinkedListHuiWenVertify.cpp.s
+
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.s
+
+# target to generate assembly for a file
+LinkedList/singleLinkedListHuiWenVertify.cpp.s:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/LinkedList/singleLinkedListHuiWenVertify.cpp.s
+.PHONY : LinkedList/singleLinkedListHuiWenVertify.cpp.s
+
+LinkedList/yueSeFuHuan.obj: LinkedList/yueSeFuHuan.cpp.obj
+
+.PHONY : LinkedList/yueSeFuHuan.obj
+
+# target to build an object file
+LinkedList/yueSeFuHuan.cpp.obj:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/LinkedList/yueSeFuHuan.cpp.obj
+.PHONY : LinkedList/yueSeFuHuan.cpp.obj
+
+LinkedList/yueSeFuHuan.i: LinkedList/yueSeFuHuan.cpp.i
+
+.PHONY : LinkedList/yueSeFuHuan.i
+
+# target to preprocess a source file
+LinkedList/yueSeFuHuan.cpp.i:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/LinkedList/yueSeFuHuan.cpp.i
+.PHONY : LinkedList/yueSeFuHuan.cpp.i
+
+LinkedList/yueSeFuHuan.s: LinkedList/yueSeFuHuan.cpp.s
+
+.PHONY : LinkedList/yueSeFuHuan.s
+
+# target to generate assembly for a file
+LinkedList/yueSeFuHuan.cpp.s:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/LinkedList/yueSeFuHuan.cpp.s
+.PHONY : LinkedList/yueSeFuHuan.cpp.s
 
 dynamicPro/BestTaskDeploy.obj: dynamicPro/BestTaskDeploy.cpp.obj
 
@@ -411,12 +491,20 @@ help:
 	@echo ... depend
 	@echo ... longestIncreasingSubSequence
 	@echo ... algarism
+	@echo ... yueSeFuHuan
 	@echo ... fibonacci
-	@echo ... rebuild_cache
 	@echo ... BestTaskDeploy
+	@echo ... singleLinkedListHuiWenVertify
 	@echo ... longestCommonSubSequence
 	@echo ... RodCutting
 	@echo ... edit_cache
+	@echo ... rebuild_cache
+	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
+	@echo ... LinkedList/singleLinkedListHuiWenVertify.i
+	@echo ... LinkedList/singleLinkedListHuiWenVertify.s
+	@echo ... LinkedList/yueSeFuHuan.obj
+	@echo ... LinkedList/yueSeFuHuan.i
+	@echo ... LinkedList/yueSeFuHuan.s
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
 	@echo ... dynamicPro/BestTaskDeploy.s
