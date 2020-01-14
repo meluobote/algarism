@@ -17,6 +17,50 @@
 					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="longestIncreasingSubSequence">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/longestIncreasingSubSequence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:\MinGW64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestIncreasingSubSequence"/>
+					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longestIncreasingSubSequence/fast">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/longestIncreasingSubSequence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:\MinGW64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestIncreasingSubSequence/fast"/>
+					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="algarism">
 				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/algarism.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
@@ -159,6 +203,50 @@
 					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="longestCommonSubSequence">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/longestCommonSubSequence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:\MinGW64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestCommonSubSequence"/>
+					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longestCommonSubSequence/fast">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/longestCommonSubSequence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:\MinGW64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestCommonSubSequence/fast"/>
+					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="singleLinkedListHuiWenVertify">
 				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/singleLinkedListHuiWenVertify.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
@@ -228,6 +316,12 @@
 		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/fibonacci.cpp">
 			<Option target="fibonacci"/>
+		</Unit>
+		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/longestCommonSubSequence.cpp">
+			<Option target="longestCommonSubSequence"/>
+		</Unit>
+		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/longestIncreasingSubSequence.cpp">
+			<Option target="longestIncreasingSubSequence"/>
 		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/main.cpp">
 			<Option target="algarism"/>
