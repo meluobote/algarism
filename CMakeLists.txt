@@ -7,3 +7,5 @@ add_executable(algarism main.cpp sort.cpp sort.h dynamicPro/CutRod.cpp dynamicPr
 add_executable(fibonacci dynamicPro/fibonacci.cpp)
 add_executable(BestTaskDeploy dynamicPro/BestTaskDeploy.cpp)
 add_executable(singleLinkedListHuiWenVertify LinkedList/singleLinkedListHuiWenVertify.cpp)
+add_executable(longestCommonSubSequence dynamicPro/longestCommonSubSequence.cpp)
+add_executable(longestIncreasingSubSequence dynamicPro/longestIncreasingSubSequence.cpp)
