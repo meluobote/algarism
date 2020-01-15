@@ -213,6 +213,19 @@ RodCutting/fast:
 	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/build
 .PHONY : RodCutting/fast
 
+#=============================================================================
+# Target rules for targets named addSubMulDiv
+
+# Build rule for target.
+addSubMulDiv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 addSubMulDiv
+.PHONY : addSubMulDiv
+
+# fast build rule for target.
+addSubMulDiv/fast:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/build
+.PHONY : addSubMulDiv/fast
+
 LinkedList/singleLinkedListHuiWenVertify.obj: LinkedList/singleLinkedListHuiWenVertify.cpp.obj
 
 .PHONY : LinkedList/singleLinkedListHuiWenVertify.obj
@@ -293,33 +306,6 @@ dynamicPro/BestTaskDeploy.s: dynamicPro/BestTaskDeploy.cpp.s
 dynamicPro/BestTaskDeploy.cpp.s:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.s
 .PHONY : dynamicPro/BestTaskDeploy.cpp.s
-
-dynamicPro/CutRod.obj: dynamicPro/CutRod.cpp.obj
-
-.PHONY : dynamicPro/CutRod.obj
-
-# target to build an object file
-dynamicPro/CutRod.cpp.obj:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.obj
-.PHONY : dynamicPro/CutRod.cpp.obj
-
-dynamicPro/CutRod.i: dynamicPro/CutRod.cpp.i
-
-.PHONY : dynamicPro/CutRod.i
-
-# target to preprocess a source file
-dynamicPro/CutRod.cpp.i:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.i
-.PHONY : dynamicPro/CutRod.cpp.i
-
-dynamicPro/CutRod.s: dynamicPro/CutRod.cpp.s
-
-.PHONY : dynamicPro/CutRod.s
-
-# target to generate assembly for a file
-dynamicPro/CutRod.cpp.s:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/dynamicPro/CutRod.cpp.s
-.PHONY : dynamicPro/CutRod.cpp.s
 
 dynamicPro/RodCutting.obj: dynamicPro/RodCutting.cpp.obj
 
@@ -456,32 +442,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sort.obj: sort.cpp.obj
+stack/addSubMulDiv.obj: stack/addSubMulDiv.cpp.obj
 
-.PHONY : sort.obj
+.PHONY : stack/addSubMulDiv.obj
 
 # target to build an object file
-sort.cpp.obj:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/sort.cpp.obj
-.PHONY : sort.cpp.obj
+stack/addSubMulDiv.cpp.obj:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.obj
+.PHONY : stack/addSubMulDiv.cpp.obj
 
-sort.i: sort.cpp.i
+stack/addSubMulDiv.i: stack/addSubMulDiv.cpp.i
 
-.PHONY : sort.i
+.PHONY : stack/addSubMulDiv.i
 
 # target to preprocess a source file
-sort.cpp.i:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/sort.cpp.i
-.PHONY : sort.cpp.i
+stack/addSubMulDiv.cpp.i:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.i
+.PHONY : stack/addSubMulDiv.cpp.i
 
-sort.s: sort.cpp.s
+stack/addSubMulDiv.s: stack/addSubMulDiv.cpp.s
 
-.PHONY : sort.s
+.PHONY : stack/addSubMulDiv.s
 
 # target to generate assembly for a file
-sort.cpp.s:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/sort.cpp.s
-.PHONY : sort.cpp.s
+stack/addSubMulDiv.cpp.s:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.s
+.PHONY : stack/addSubMulDiv.cpp.s
 
 # Help Target
 help:
@@ -497,6 +483,7 @@ help:
 	@echo ... singleLinkedListHuiWenVertify
 	@echo ... longestCommonSubSequence
 	@echo ... RodCutting
+	@echo ... addSubMulDiv
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
@@ -508,9 +495,6 @@ help:
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
 	@echo ... dynamicPro/BestTaskDeploy.s
-	@echo ... dynamicPro/CutRod.obj
-	@echo ... dynamicPro/CutRod.i
-	@echo ... dynamicPro/CutRod.s
 	@echo ... dynamicPro/RodCutting.obj
 	@echo ... dynamicPro/RodCutting.i
 	@echo ... dynamicPro/RodCutting.s
@@ -526,9 +510,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... sort.obj
-	@echo ... sort.i
-	@echo ... sort.s
+	@echo ... stack/addSubMulDiv.obj
+	@echo ... stack/addSubMulDiv.i
+	@echo ... stack/addSubMulDiv.s
 .PHONY : help
 
 

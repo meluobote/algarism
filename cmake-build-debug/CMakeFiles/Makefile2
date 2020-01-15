@@ -60,6 +60,7 @@ all: CMakeFiles/BestTaskDeploy.dir/all
 all: CMakeFiles/singleLinkedListHuiWenVertify.dir/all
 all: CMakeFiles/longestCommonSubSequence.dir/all
 all: CMakeFiles/RodCutting.dir/all
+all: CMakeFiles/addSubMulDiv.dir/all
 
 .PHONY : all
 
@@ -72,6 +73,7 @@ clean: CMakeFiles/BestTaskDeploy.dir/clean
 clean: CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
 clean: CMakeFiles/longestCommonSubSequence.dir/clean
 clean: CMakeFiles/RodCutting.dir/clean
+clean: CMakeFiles/addSubMulDiv.dir/clean
 
 .PHONY : clean
 
@@ -114,12 +116,12 @@ CMakeFiles/longestIncreasingSubSequence.dir/clean:
 CMakeFiles/algarism.dir/all:
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/depend
 	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target algarism"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target algarism"
 .PHONY : CMakeFiles/algarism.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algarism.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/algarism.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/algarism.dir/rule
@@ -295,6 +297,33 @@ RodCutting: CMakeFiles/RodCutting.dir/rule
 CMakeFiles/RodCutting.dir/clean:
 	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/clean
 .PHONY : CMakeFiles/RodCutting.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/addSubMulDiv.dir
+
+# All Build rule for target.
+CMakeFiles/addSubMulDiv.dir/all:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/depend
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target addSubMulDiv"
+.PHONY : CMakeFiles/addSubMulDiv.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/addSubMulDiv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/addSubMulDiv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/addSubMulDiv.dir/rule
+
+# Convenience name for target.
+addSubMulDiv: CMakeFiles/addSubMulDiv.dir/rule
+
+.PHONY : addSubMulDiv
+
+# clean rule for target.
+CMakeFiles/addSubMulDiv.dir/clean:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/clean
+.PHONY : CMakeFiles/addSubMulDiv.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
