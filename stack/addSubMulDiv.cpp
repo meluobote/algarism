@@ -12,6 +12,8 @@
  */
 #include <iostream>
 #include <string>
+#include <random>
+#include <algorithm>
 #include <stack>
 using namespace std;
 /*
@@ -65,9 +67,20 @@ int huaWeiInterview(string s){
     return ret;
 }
 
+
 int main(){
-    string s="8+7*2-9/3";
-    cout<<huaWeiInterview(s);
-    isdigit('3');
+//    string s="8+7*2-9/3";
+//    cout<<huaWeiInterview(s);
+    random_device rd;
+    cout<<rd()<<" "<<rd()<<endl;
+    cout<<rd()<<" "<<rd()<<endl;
+
+    vector<int> v{1,2,3,4,5};
+    random_shuffle(v.begin(), v.end());
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<" ";
+    }
+    cout<<endl;
+    cout<<(abs(-3)>2)<<endl;
     return 0;
 }
