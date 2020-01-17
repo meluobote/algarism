@@ -110,30 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named longestIncreasingSubSequence
+# Target rules for targets named main
 
 # Build rule for target.
-longestIncreasingSubSequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 longestIncreasingSubSequence
-.PHONY : longestIncreasingSubSequence
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-longestIncreasingSubSequence/fast:
-	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
-.PHONY : longestIncreasingSubSequence/fast
-
-#=============================================================================
-# Target rules for targets named algarism
-
-# Build rule for target.
-algarism: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 algarism
-.PHONY : algarism
-
-# fast build rule for target.
-algarism/fast:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
-.PHONY : algarism/fast
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named yueSeFuHuan
@@ -173,6 +160,19 @@ BestTaskDeploy: cmake_check_build_system
 BestTaskDeploy/fast:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/build
 .PHONY : BestTaskDeploy/fast
+
+#=============================================================================
+# Target rules for targets named longestIncreasingSubSequence
+
+# Build rule for target.
+longestIncreasingSubSequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 longestIncreasingSubSequence
+.PHONY : longestIncreasingSubSequence
+
+# fast build rule for target.
+longestIncreasingSubSequence/fast:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
+.PHONY : longestIncreasingSubSequence/fast
 
 #=============================================================================
 # Target rules for targets named singleLinkedListHuiWenVertify
@@ -421,7 +421,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -430,7 +430,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -439,7 +439,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 stack/addSubMulDiv.obj: stack/addSubMulDiv.cpp.obj
@@ -475,16 +475,16 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... longestIncreasingSubSequence
-	@echo ... algarism
+	@echo ... edit_cache
+	@echo ... main
 	@echo ... yueSeFuHuan
 	@echo ... fibonacci
 	@echo ... BestTaskDeploy
+	@echo ... longestIncreasingSubSequence
 	@echo ... singleLinkedListHuiWenVertify
 	@echo ... longestCommonSubSequence
 	@echo ... RodCutting
 	@echo ... addSubMulDiv
-	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.i

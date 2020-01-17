@@ -3,7 +3,7 @@ project(algarism)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(algarism main.cpp)
+add_executable(main main.cpp)
 add_executable(fibonacci dynamicPro/fibonacci.cpp)
 add_executable(BestTaskDeploy dynamicPro/BestTaskDeploy.cpp)
 add_executable(longestIncreasingSubSequence dynamicPro/longestIncreasingSubSequence.cpp)
