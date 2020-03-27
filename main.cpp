@@ -5,45 +5,34 @@
 #include <cmath>
 #include <map>
 #include <algorithm>
+#include <set>
+#include <queue>
+
 using namespace std;
-
-vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
-    vector<int> rev(1001,0);
-    vector<int>res(arr1.size());
-    vector<int> notInvec;
-
-    for(int i=0;i<arr1.size();i++){
-        if(find(arr2.begin(), arr2.end(), arr1[i])!=arr2.end()){
-            rev[arr1[i]]++;
-        }else{
-            notInvec.push_back(arr1[i]);
-        }
-    }
-    int idx=0;
-    for(int i=0;i<arr2.size();i++){
-        int n=rev[arr2[i]];
-        int j=0;
-        while(j<n){
-            res[idx++]=arr2[i];
-            j++;
-        }
-    }
-
-    sort(notInvec.begin(), notInvec.end());
-    int tmp=arr1.size()-1;
-    for(int i=notInvec.size()-1;i>=0;i--){
-        res[tmp]=notInvec[i];
-        tmp--;
-    }
-    return res;
-}
-
-int main() {
-    vector<int> arr1{2,3,1,3,2,4,6,7,9,2,19};
-    vector<int> arr2{2,1,4,3,9,6};
-    vector<int> res=relativeSortArray(arr1, arr2);
-    for(auto e:res){
-        cout<<e<<" ";
+void printVec(vector<int>& vec){
+    for(int i=0;i<vec.size();i++){
+        cout<<vec[i]<<" ";
     }
     cout<<endl;
+}
+    int findKthLargest(vector<int>& nums, int k) {
+        make_heap(nums.begin(), nums.end(), greater<int>());
+        int count=nums.size();
+        for(int i=0;i<count-k;i++){
+            nums[0]=nums[nums.size()-1]+nums[0]-(nums[nums.size()-1]=nums[0]);
+            nums.pop_back();
+            make_heap(nums.begin(), nums.end(), greater<int>());
+            printVec(nums);
+        }
+        return nums[0];
+    }
+
+int main() {
+    vector<int> nums{3,2,1,5,6,4};
+//    int ret=findKthLargest(nums, 2);
+//    cout<<"kth: "<<ret<<endl;
+    int mid=nums.size()/2;
+    vector<int> v1(nums.begin(),nums.begin());
+    printVec(v1);
+    cout<<"不能打印中文吗?"<<endl;
 }

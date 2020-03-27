@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named O_lgn
+
+# Build rule for target.
+O_lgn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 O_lgn
+.PHONY : O_lgn
+
+# fast build rule for target.
+O_lgn/fast:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/build
+.PHONY : O_lgn/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -123,17 +136,30 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named yueSeFuHuan
+# Target rules for targets named longestCommonSubSequence
 
 # Build rule for target.
-yueSeFuHuan: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 yueSeFuHuan
-.PHONY : yueSeFuHuan
+longestCommonSubSequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 longestCommonSubSequence
+.PHONY : longestCommonSubSequence
 
 # fast build rule for target.
-yueSeFuHuan/fast:
-	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
-.PHONY : yueSeFuHuan/fast
+longestCommonSubSequence/fast:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
+.PHONY : longestCommonSubSequence/fast
+
+#=============================================================================
+# Target rules for targets named O_n2
+
+# Build rule for target.
+O_n2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 O_n2
+.PHONY : O_n2
+
+# fast build rule for target.
+O_n2/fast:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/build
+.PHONY : O_n2/fast
 
 #=============================================================================
 # Target rules for targets named fibonacci
@@ -175,6 +201,19 @@ longestIncreasingSubSequence/fast:
 .PHONY : longestIncreasingSubSequence/fast
 
 #=============================================================================
+# Target rules for targets named RodCutting
+
+# Build rule for target.
+RodCutting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RodCutting
+.PHONY : RodCutting
+
+# fast build rule for target.
+RodCutting/fast:
+	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/build
+.PHONY : RodCutting/fast
+
+#=============================================================================
 # Target rules for targets named singleLinkedListHuiWenVertify
 
 # Build rule for target.
@@ -188,30 +227,17 @@ singleLinkedListHuiWenVertify/fast:
 .PHONY : singleLinkedListHuiWenVertify/fast
 
 #=============================================================================
-# Target rules for targets named longestCommonSubSequence
+# Target rules for targets named yueSeFuHuan
 
 # Build rule for target.
-longestCommonSubSequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 longestCommonSubSequence
-.PHONY : longestCommonSubSequence
+yueSeFuHuan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 yueSeFuHuan
+.PHONY : yueSeFuHuan
 
 # fast build rule for target.
-longestCommonSubSequence/fast:
-	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
-.PHONY : longestCommonSubSequence/fast
-
-#=============================================================================
-# Target rules for targets named RodCutting
-
-# Build rule for target.
-RodCutting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 RodCutting
-.PHONY : RodCutting
-
-# fast build rule for target.
-RodCutting/fast:
-	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/build
-.PHONY : RodCutting/fast
+yueSeFuHuan/fast:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
+.PHONY : yueSeFuHuan/fast
 
 #=============================================================================
 # Target rules for targets named addSubMulDiv
@@ -442,6 +468,63 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sort/O_lgn.obj: sort/O_lgn.cpp.obj
+
+.PHONY : sort/O_lgn.obj
+
+# target to build an object file
+sort/O_lgn.cpp.obj:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sort/O_lgn.cpp.obj
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.obj
+.PHONY : sort/O_lgn.cpp.obj
+
+sort/O_lgn.i: sort/O_lgn.cpp.i
+
+.PHONY : sort/O_lgn.i
+
+# target to preprocess a source file
+sort/O_lgn.cpp.i:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sort/O_lgn.cpp.i
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.i
+.PHONY : sort/O_lgn.cpp.i
+
+sort/O_lgn.s: sort/O_lgn.cpp.s
+
+.PHONY : sort/O_lgn.s
+
+# target to generate assembly for a file
+sort/O_lgn.cpp.s:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sort/O_lgn.cpp.s
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.s
+.PHONY : sort/O_lgn.cpp.s
+
+sort/O_n2.obj: sort/O_n2.cpp.obj
+
+.PHONY : sort/O_n2.obj
+
+# target to build an object file
+sort/O_n2.cpp.obj:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sort/O_n2.cpp.obj
+.PHONY : sort/O_n2.cpp.obj
+
+sort/O_n2.i: sort/O_n2.cpp.i
+
+.PHONY : sort/O_n2.i
+
+# target to preprocess a source file
+sort/O_n2.cpp.i:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sort/O_n2.cpp.i
+.PHONY : sort/O_n2.cpp.i
+
+sort/O_n2.s: sort/O_n2.cpp.s
+
+.PHONY : sort/O_n2.s
+
+# target to generate assembly for a file
+sort/O_n2.cpp.s:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sort/O_n2.cpp.s
+.PHONY : sort/O_n2.cpp.s
+
 stack/addSubMulDiv.obj: stack/addSubMulDiv.cpp.obj
 
 .PHONY : stack/addSubMulDiv.obj
@@ -475,15 +558,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... O_lgn
 	@echo ... edit_cache
 	@echo ... main
-	@echo ... yueSeFuHuan
+	@echo ... longestCommonSubSequence
+	@echo ... O_n2
 	@echo ... fibonacci
 	@echo ... BestTaskDeploy
 	@echo ... longestIncreasingSubSequence
-	@echo ... singleLinkedListHuiWenVertify
-	@echo ... longestCommonSubSequence
 	@echo ... RodCutting
+	@echo ... singleLinkedListHuiWenVertify
+	@echo ... yueSeFuHuan
 	@echo ... addSubMulDiv
 	@echo ... rebuild_cache
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
@@ -510,6 +595,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sort/O_lgn.obj
+	@echo ... sort/O_lgn.i
+	@echo ... sort/O_lgn.s
+	@echo ... sort/O_n2.obj
+	@echo ... sort/O_n2.i
+	@echo ... sort/O_n2.s
 	@echo ... stack/addSubMulDiv.obj
 	@echo ... stack/addSubMulDiv.i
 	@echo ... stack/addSubMulDiv.s

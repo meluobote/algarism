@@ -52,27 +52,31 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/longestIncreasingSubSequence.dir/all
-all: CMakeFiles/algarism.dir/all
-all: CMakeFiles/yueSeFuHuan.dir/all
+all: CMakeFiles/O_lgn.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/longestCommonSubSequence.dir/all
+all: CMakeFiles/O_n2.dir/all
 all: CMakeFiles/fibonacci.dir/all
 all: CMakeFiles/BestTaskDeploy.dir/all
-all: CMakeFiles/singleLinkedListHuiWenVertify.dir/all
-all: CMakeFiles/longestCommonSubSequence.dir/all
+all: CMakeFiles/longestIncreasingSubSequence.dir/all
 all: CMakeFiles/RodCutting.dir/all
+all: CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+all: CMakeFiles/yueSeFuHuan.dir/all
 all: CMakeFiles/addSubMulDiv.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/longestIncreasingSubSequence.dir/clean
-clean: CMakeFiles/algarism.dir/clean
-clean: CMakeFiles/yueSeFuHuan.dir/clean
+clean: CMakeFiles/O_lgn.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/longestCommonSubSequence.dir/clean
+clean: CMakeFiles/O_n2.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 clean: CMakeFiles/BestTaskDeploy.dir/clean
-clean: CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
-clean: CMakeFiles/longestCommonSubSequence.dir/clean
+clean: CMakeFiles/longestIncreasingSubSequence.dir/clean
 clean: CMakeFiles/RodCutting.dir/clean
+clean: CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
+clean: CMakeFiles/yueSeFuHuan.dir/clean
 clean: CMakeFiles/addSubMulDiv.dir/clean
 
 .PHONY : clean
@@ -83,85 +87,112 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/longestIncreasingSubSequence.dir
+# Target rules for target CMakeFiles/O_lgn.dir
 
 # All Build rule for target.
-CMakeFiles/longestIncreasingSubSequence.dir/all:
-	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/depend
-	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target longestIncreasingSubSequence"
-.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/all
+CMakeFiles/O_lgn.dir/all:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/depend
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target O_lgn"
+.PHONY : CMakeFiles/O_lgn.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/longestIncreasingSubSequence.dir/rule: cmake_check_build_system
+CMakeFiles/O_lgn.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longestIncreasingSubSequence.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/O_lgn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/rule
+.PHONY : CMakeFiles/O_lgn.dir/rule
 
 # Convenience name for target.
-longestIncreasingSubSequence: CMakeFiles/longestIncreasingSubSequence.dir/rule
+O_lgn: CMakeFiles/O_lgn.dir/rule
 
-.PHONY : longestIncreasingSubSequence
+.PHONY : O_lgn
 
 # clean rule for target.
-CMakeFiles/longestIncreasingSubSequence.dir/clean:
-	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/clean
-.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/clean
+CMakeFiles/O_lgn.dir/clean:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/clean
+.PHONY : CMakeFiles/O_lgn.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/algarism.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/algarism.dir/all:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/depend
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target algarism"
-.PHONY : CMakeFiles/algarism.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/algarism.dir/rule: cmake_check_build_system
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/algarism.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/algarism.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-algarism: CMakeFiles/algarism.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : algarism
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/algarism.dir/clean:
-	$(MAKE) -f CMakeFiles\algarism.dir\build.make CMakeFiles/algarism.dir/clean
-.PHONY : CMakeFiles/algarism.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/yueSeFuHuan.dir
+# Target rules for target CMakeFiles/longestCommonSubSequence.dir
 
 # All Build rule for target.
-CMakeFiles/yueSeFuHuan.dir/all:
-	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/depend
-	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target yueSeFuHuan"
-.PHONY : CMakeFiles/yueSeFuHuan.dir/all
+CMakeFiles/longestCommonSubSequence.dir/all:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/depend
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target longestCommonSubSequence"
+.PHONY : CMakeFiles/longestCommonSubSequence.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/yueSeFuHuan.dir/rule: cmake_check_build_system
+CMakeFiles/longestCommonSubSequence.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/yueSeFuHuan.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longestCommonSubSequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/yueSeFuHuan.dir/rule
+.PHONY : CMakeFiles/longestCommonSubSequence.dir/rule
 
 # Convenience name for target.
-yueSeFuHuan: CMakeFiles/yueSeFuHuan.dir/rule
+longestCommonSubSequence: CMakeFiles/longestCommonSubSequence.dir/rule
 
-.PHONY : yueSeFuHuan
+.PHONY : longestCommonSubSequence
 
 # clean rule for target.
-CMakeFiles/yueSeFuHuan.dir/clean:
-	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/clean
-.PHONY : CMakeFiles/yueSeFuHuan.dir/clean
+CMakeFiles/longestCommonSubSequence.dir/clean:
+	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/clean
+.PHONY : CMakeFiles/longestCommonSubSequence.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/O_n2.dir
+
+# All Build rule for target.
+CMakeFiles/O_n2.dir/all:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/depend
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target O_n2"
+.PHONY : CMakeFiles/O_n2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/O_n2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/O_n2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/O_n2.dir/rule
+
+# Convenience name for target.
+O_n2: CMakeFiles/O_n2.dir/rule
+
+.PHONY : O_n2
+
+# clean rule for target.
+CMakeFiles/O_n2.dir/clean:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/clean
+.PHONY : CMakeFiles/O_n2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/fibonacci.dir
@@ -170,7 +201,7 @@ CMakeFiles/yueSeFuHuan.dir/clean:
 CMakeFiles/fibonacci.dir/all:
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/depend
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target fibonacci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target fibonacci"
 .PHONY : CMakeFiles/fibonacci.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,58 +249,31 @@ CMakeFiles/BestTaskDeploy.dir/clean:
 .PHONY : CMakeFiles/BestTaskDeploy.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/singleLinkedListHuiWenVertify.dir
+# Target rules for target CMakeFiles/longestIncreasingSubSequence.dir
 
 # All Build rule for target.
-CMakeFiles/singleLinkedListHuiWenVertify.dir/all:
-	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/depend
-	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target singleLinkedListHuiWenVertify"
-.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+CMakeFiles/longestIncreasingSubSequence.dir/all:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/depend
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target longestIncreasingSubSequence"
+.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/singleLinkedListHuiWenVertify.dir/rule: cmake_check_build_system
+CMakeFiles/longestIncreasingSubSequence.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longestIncreasingSubSequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/rule
 
 # Convenience name for target.
-singleLinkedListHuiWenVertify: CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+longestIncreasingSubSequence: CMakeFiles/longestIncreasingSubSequence.dir/rule
 
-.PHONY : singleLinkedListHuiWenVertify
-
-# clean rule for target.
-CMakeFiles/singleLinkedListHuiWenVertify.dir/clean:
-	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
-.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/longestCommonSubSequence.dir
-
-# All Build rule for target.
-CMakeFiles/longestCommonSubSequence.dir/all:
-	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/depend
-	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target longestCommonSubSequence"
-.PHONY : CMakeFiles/longestCommonSubSequence.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/longestCommonSubSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longestCommonSubSequence.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/longestCommonSubSequence.dir/rule
-
-# Convenience name for target.
-longestCommonSubSequence: CMakeFiles/longestCommonSubSequence.dir/rule
-
-.PHONY : longestCommonSubSequence
+.PHONY : longestIncreasingSubSequence
 
 # clean rule for target.
-CMakeFiles/longestCommonSubSequence.dir/clean:
-	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/clean
-.PHONY : CMakeFiles/longestCommonSubSequence.dir/clean
+CMakeFiles/longestIncreasingSubSequence.dir/clean:
+	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/clean
+.PHONY : CMakeFiles/longestIncreasingSubSequence.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/RodCutting.dir
@@ -278,7 +282,7 @@ CMakeFiles/longestCommonSubSequence.dir/clean:
 CMakeFiles/RodCutting.dir/all:
 	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/depend
 	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target RodCutting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target RodCutting"
 .PHONY : CMakeFiles/RodCutting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,18 +303,72 @@ CMakeFiles/RodCutting.dir/clean:
 .PHONY : CMakeFiles/RodCutting.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/singleLinkedListHuiWenVertify.dir
+
+# All Build rule for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/all:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/depend
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target singleLinkedListHuiWenVertify"
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/singleLinkedListHuiWenVertify.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+
+# Convenience name for target.
+singleLinkedListHuiWenVertify: CMakeFiles/singleLinkedListHuiWenVertify.dir/rule
+
+.PHONY : singleLinkedListHuiWenVertify
+
+# clean rule for target.
+CMakeFiles/singleLinkedListHuiWenVertify.dir/clean:
+	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
+.PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/yueSeFuHuan.dir
+
+# All Build rule for target.
+CMakeFiles/yueSeFuHuan.dir/all:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/depend
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target yueSeFuHuan"
+.PHONY : CMakeFiles/yueSeFuHuan.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/yueSeFuHuan.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/yueSeFuHuan.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/yueSeFuHuan.dir/rule
+
+# Convenience name for target.
+yueSeFuHuan: CMakeFiles/yueSeFuHuan.dir/rule
+
+.PHONY : yueSeFuHuan
+
+# clean rule for target.
+CMakeFiles/yueSeFuHuan.dir/clean:
+	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/clean
+.PHONY : CMakeFiles/yueSeFuHuan.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/addSubMulDiv.dir
 
 # All Build rule for target.
 CMakeFiles/addSubMulDiv.dir/all:
 	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/depend
 	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target addSubMulDiv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target addSubMulDiv"
 .PHONY : CMakeFiles/addSubMulDiv.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/addSubMulDiv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/addSubMulDiv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/addSubMulDiv.dir/rule
