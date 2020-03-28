@@ -111,6 +111,48 @@
 					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="O_n">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/O_n.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="O_n/fast">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/O_n.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="longestCommonSubSequence">
 				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/longestCommonSubSequence.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
@@ -527,6 +569,9 @@
 		<Unit filename="D:/code/cplusplus/algarism/sort/O_lgn.cpp">
 			<Option target="O_lgn"/>
 			<Option target="addSubMulDiv"/>
+		</Unit>
+		<Unit filename="D:/code/cplusplus/algarism/sort/O_n.cpp">
+			<Option target="O_n"/>
 		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/sort/O_n2.cpp">
 			<Option target="O_n2"/>

@@ -136,6 +136,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named O_n
+
+# Build rule for target.
+O_n: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 O_n
+.PHONY : O_n
+
+# fast build rule for target.
+O_n/fast:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/build
+.PHONY : O_n/fast
+
+#=============================================================================
 # Target rules for targets named longestCommonSubSequence
 
 # Build rule for target.
@@ -498,6 +511,33 @@ sort/O_lgn.cpp.s:
 	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.s
 .PHONY : sort/O_lgn.cpp.s
 
+sort/O_n.obj: sort/O_n.cpp.obj
+
+.PHONY : sort/O_n.obj
+
+# target to build an object file
+sort/O_n.cpp.obj:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sort/O_n.cpp.obj
+.PHONY : sort/O_n.cpp.obj
+
+sort/O_n.i: sort/O_n.cpp.i
+
+.PHONY : sort/O_n.i
+
+# target to preprocess a source file
+sort/O_n.cpp.i:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sort/O_n.cpp.i
+.PHONY : sort/O_n.cpp.i
+
+sort/O_n.s: sort/O_n.cpp.s
+
+.PHONY : sort/O_n.s
+
+# target to generate assembly for a file
+sort/O_n.cpp.s:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sort/O_n.cpp.s
+.PHONY : sort/O_n.cpp.s
+
 sort/O_n2.obj: sort/O_n2.cpp.obj
 
 .PHONY : sort/O_n2.obj
@@ -561,6 +601,7 @@ help:
 	@echo ... O_lgn
 	@echo ... edit_cache
 	@echo ... main
+	@echo ... O_n
 	@echo ... longestCommonSubSequence
 	@echo ... O_n2
 	@echo ... fibonacci
@@ -598,6 +639,9 @@ help:
 	@echo ... sort/O_lgn.obj
 	@echo ... sort/O_lgn.i
 	@echo ... sort/O_lgn.s
+	@echo ... sort/O_n.obj
+	@echo ... sort/O_n.i
+	@echo ... sort/O_n.s
 	@echo ... sort/O_n2.obj
 	@echo ... sort/O_n2.i
 	@echo ... sort/O_n2.s
