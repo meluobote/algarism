@@ -123,6 +123,19 @@ O_lgn/fast:
 .PHONY : O_lgn/fast
 
 #=============================================================================
+# Target rules for targets named binarySearch
+
+# Build rule for target.
+binarySearch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 binarySearch
+.PHONY : binarySearch
+
+# fast build rule for target.
+binarySearch/fast:
+	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/build
+.PHONY : binarySearch/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -136,19 +149,6 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named O_n
-
-# Build rule for target.
-O_n: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 O_n
-.PHONY : O_n
-
-# fast build rule for target.
-O_n/fast:
-	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/build
-.PHONY : O_n/fast
-
-#=============================================================================
 # Target rules for targets named longestCommonSubSequence
 
 # Build rule for target.
@@ -160,6 +160,19 @@ longestCommonSubSequence: cmake_check_build_system
 longestCommonSubSequence/fast:
 	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
 .PHONY : longestCommonSubSequence/fast
+
+#=============================================================================
+# Target rules for targets named O_n
+
+# Build rule for target.
+O_n: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 O_n
+.PHONY : O_n
+
+# fast build rule for target.
+O_n/fast:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/build
+.PHONY : O_n/fast
 
 #=============================================================================
 # Target rules for targets named O_n2
@@ -481,89 +494,116 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sort/O_lgn.obj: sort/O_lgn.cpp.obj
+sortAndFind/O_lgn.obj: sortAndFind/O_lgn.cpp.obj
 
-.PHONY : sort/O_lgn.obj
-
-# target to build an object file
-sort/O_lgn.cpp.obj:
-	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sort/O_lgn.cpp.obj
-	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.obj
-.PHONY : sort/O_lgn.cpp.obj
-
-sort/O_lgn.i: sort/O_lgn.cpp.i
-
-.PHONY : sort/O_lgn.i
-
-# target to preprocess a source file
-sort/O_lgn.cpp.i:
-	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sort/O_lgn.cpp.i
-	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.i
-.PHONY : sort/O_lgn.cpp.i
-
-sort/O_lgn.s: sort/O_lgn.cpp.s
-
-.PHONY : sort/O_lgn.s
-
-# target to generate assembly for a file
-sort/O_lgn.cpp.s:
-	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sort/O_lgn.cpp.s
-	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sort/O_lgn.cpp.s
-.PHONY : sort/O_lgn.cpp.s
-
-sort/O_n.obj: sort/O_n.cpp.obj
-
-.PHONY : sort/O_n.obj
+.PHONY : sortAndFind/O_lgn.obj
 
 # target to build an object file
-sort/O_n.cpp.obj:
-	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sort/O_n.cpp.obj
-.PHONY : sort/O_n.cpp.obj
+sortAndFind/O_lgn.cpp.obj:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sortAndFind/O_lgn.cpp.obj
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sortAndFind/O_lgn.cpp.obj
+.PHONY : sortAndFind/O_lgn.cpp.obj
 
-sort/O_n.i: sort/O_n.cpp.i
+sortAndFind/O_lgn.i: sortAndFind/O_lgn.cpp.i
 
-.PHONY : sort/O_n.i
+.PHONY : sortAndFind/O_lgn.i
 
 # target to preprocess a source file
-sort/O_n.cpp.i:
-	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sort/O_n.cpp.i
-.PHONY : sort/O_n.cpp.i
+sortAndFind/O_lgn.cpp.i:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sortAndFind/O_lgn.cpp.i
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sortAndFind/O_lgn.cpp.i
+.PHONY : sortAndFind/O_lgn.cpp.i
 
-sort/O_n.s: sort/O_n.cpp.s
+sortAndFind/O_lgn.s: sortAndFind/O_lgn.cpp.s
 
-.PHONY : sort/O_n.s
+.PHONY : sortAndFind/O_lgn.s
 
 # target to generate assembly for a file
-sort/O_n.cpp.s:
-	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sort/O_n.cpp.s
-.PHONY : sort/O_n.cpp.s
+sortAndFind/O_lgn.cpp.s:
+	$(MAKE) -f CMakeFiles\O_lgn.dir\build.make CMakeFiles/O_lgn.dir/sortAndFind/O_lgn.cpp.s
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/sortAndFind/O_lgn.cpp.s
+.PHONY : sortAndFind/O_lgn.cpp.s
 
-sort/O_n2.obj: sort/O_n2.cpp.obj
+sortAndFind/O_n.obj: sortAndFind/O_n.cpp.obj
 
-.PHONY : sort/O_n2.obj
+.PHONY : sortAndFind/O_n.obj
 
 # target to build an object file
-sort/O_n2.cpp.obj:
-	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sort/O_n2.cpp.obj
-.PHONY : sort/O_n2.cpp.obj
+sortAndFind/O_n.cpp.obj:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sortAndFind/O_n.cpp.obj
+.PHONY : sortAndFind/O_n.cpp.obj
 
-sort/O_n2.i: sort/O_n2.cpp.i
+sortAndFind/O_n.i: sortAndFind/O_n.cpp.i
 
-.PHONY : sort/O_n2.i
+.PHONY : sortAndFind/O_n.i
 
 # target to preprocess a source file
-sort/O_n2.cpp.i:
-	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sort/O_n2.cpp.i
-.PHONY : sort/O_n2.cpp.i
+sortAndFind/O_n.cpp.i:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sortAndFind/O_n.cpp.i
+.PHONY : sortAndFind/O_n.cpp.i
 
-sort/O_n2.s: sort/O_n2.cpp.s
+sortAndFind/O_n.s: sortAndFind/O_n.cpp.s
 
-.PHONY : sort/O_n2.s
+.PHONY : sortAndFind/O_n.s
 
 # target to generate assembly for a file
-sort/O_n2.cpp.s:
-	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sort/O_n2.cpp.s
-.PHONY : sort/O_n2.cpp.s
+sortAndFind/O_n.cpp.s:
+	$(MAKE) -f CMakeFiles\O_n.dir\build.make CMakeFiles/O_n.dir/sortAndFind/O_n.cpp.s
+.PHONY : sortAndFind/O_n.cpp.s
+
+sortAndFind/O_n2.obj: sortAndFind/O_n2.cpp.obj
+
+.PHONY : sortAndFind/O_n2.obj
+
+# target to build an object file
+sortAndFind/O_n2.cpp.obj:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sortAndFind/O_n2.cpp.obj
+.PHONY : sortAndFind/O_n2.cpp.obj
+
+sortAndFind/O_n2.i: sortAndFind/O_n2.cpp.i
+
+.PHONY : sortAndFind/O_n2.i
+
+# target to preprocess a source file
+sortAndFind/O_n2.cpp.i:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sortAndFind/O_n2.cpp.i
+.PHONY : sortAndFind/O_n2.cpp.i
+
+sortAndFind/O_n2.s: sortAndFind/O_n2.cpp.s
+
+.PHONY : sortAndFind/O_n2.s
+
+# target to generate assembly for a file
+sortAndFind/O_n2.cpp.s:
+	$(MAKE) -f CMakeFiles\O_n2.dir\build.make CMakeFiles/O_n2.dir/sortAndFind/O_n2.cpp.s
+.PHONY : sortAndFind/O_n2.cpp.s
+
+sortAndFind/binarySearch.obj: sortAndFind/binarySearch.cpp.obj
+
+.PHONY : sortAndFind/binarySearch.obj
+
+# target to build an object file
+sortAndFind/binarySearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/sortAndFind/binarySearch.cpp.obj
+.PHONY : sortAndFind/binarySearch.cpp.obj
+
+sortAndFind/binarySearch.i: sortAndFind/binarySearch.cpp.i
+
+.PHONY : sortAndFind/binarySearch.i
+
+# target to preprocess a source file
+sortAndFind/binarySearch.cpp.i:
+	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/sortAndFind/binarySearch.cpp.i
+.PHONY : sortAndFind/binarySearch.cpp.i
+
+sortAndFind/binarySearch.s: sortAndFind/binarySearch.cpp.s
+
+.PHONY : sortAndFind/binarySearch.s
+
+# target to generate assembly for a file
+sortAndFind/binarySearch.cpp.s:
+	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/sortAndFind/binarySearch.cpp.s
+.PHONY : sortAndFind/binarySearch.cpp.s
 
 stack/addSubMulDiv.obj: stack/addSubMulDiv.cpp.obj
 
@@ -599,10 +639,11 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... O_lgn
+	@echo ... binarySearch
 	@echo ... edit_cache
 	@echo ... main
-	@echo ... O_n
 	@echo ... longestCommonSubSequence
+	@echo ... O_n
 	@echo ... O_n2
 	@echo ... fibonacci
 	@echo ... BestTaskDeploy
@@ -636,15 +677,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... sort/O_lgn.obj
-	@echo ... sort/O_lgn.i
-	@echo ... sort/O_lgn.s
-	@echo ... sort/O_n.obj
-	@echo ... sort/O_n.i
-	@echo ... sort/O_n.s
-	@echo ... sort/O_n2.obj
-	@echo ... sort/O_n2.i
-	@echo ... sort/O_n2.s
+	@echo ... sortAndFind/O_lgn.obj
+	@echo ... sortAndFind/O_lgn.i
+	@echo ... sortAndFind/O_lgn.s
+	@echo ... sortAndFind/O_n.obj
+	@echo ... sortAndFind/O_n.i
+	@echo ... sortAndFind/O_n.s
+	@echo ... sortAndFind/O_n2.obj
+	@echo ... sortAndFind/O_n2.i
+	@echo ... sortAndFind/O_n2.s
+	@echo ... sortAndFind/binarySearch.obj
+	@echo ... sortAndFind/binarySearch.i
+	@echo ... sortAndFind/binarySearch.s
 	@echo ... stack/addSubMulDiv.obj
 	@echo ... stack/addSubMulDiv.i
 	@echo ... stack/addSubMulDiv.s
