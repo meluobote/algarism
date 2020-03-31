@@ -7,6 +7,7 @@
  *      b, 最后一个等于给定值的元素
  *      c, 第一个大于等于给定值的元素
  *      d, 最后一个小于等于给定值的元素
+ *  4) 循环数组中二叉查找
  *
  * 作者：meluobote
  * 日期: 2020/3/28
@@ -96,7 +97,7 @@ int binarySearch_firstEqVal(vector<int> &v, int val) {
             if(mid==0 || (mid>0&&v[mid-1]!=val))
                 return mid;
             else{
-                right=right-1;
+                right=mid-1;
             }
         } else if (val > v[mid]) {
             left = mid + 1;
@@ -117,7 +118,7 @@ int binarySearch_lastEqVal(vector<int> &v, int val) {
             if(mid==v.size()-1 || v[mid+1]!=val)
                 return mid;
             else{
-                left=left+1;
+                left=mid+1;
             }
         } else if (val > v[mid]) {
             left = mid + 1;
@@ -135,15 +136,32 @@ int binarySearch_firstGtEqVal(vector<int> &v, int val) {
     int right = v.size() - 1;
     while (left <= right) {
         int mid = left + ((right - left) >> 1);  //这里注意>>运算符优先级比+低， 需加上括号
-        if (val >= v[mid]) {
-            if(mid==v.size()-1 || v[mid+1]!=val)
+        if (val <= v[mid]) {
+            if(mid==0 || v[mid-1]<val)
                 return mid;
             else{
-                left=left+1;
+                right=mid-1;
             }
-        } else if (val > v[mid]) {
-            left = mid + 1;
-        } else {
+        }else {
+            left=mid+1;
+        }
+    }
+    return -1;
+}
+
+// 二叉变形：d, 最后一个小于等于给定值的元素
+int binarySearch_lastLeEqVal(vector<int> &v, int val) {
+    int left = 0;
+    int right = v.size() - 1;
+    while (left <= right) {
+        int mid = left + ((right - left) >> 1);  //这里注意>>运算符优先级比+低， 需加上括号
+        if (val >= v[mid]) {
+            if(mid==v.size()-1 || v[mid+1]>val)
+                return mid;
+            else{
+                left=mid+1; //此时结果肯定在mid后面
+            }
+        }else {
             right = mid - 1;
         }
     }
@@ -151,9 +169,72 @@ int binarySearch_firstGtEqVal(vector<int> &v, int val) {
     return -1;
 }
 
+//循环数组中的二叉查找
+//目前不考虑存在重复元素的问题
+int binarySearch_cycleArray(vector<int>& v, int val){
+    if(v[v.size()-1]==val){
+        return v.size()-1;
+    }else if(v[0]==val){
+        return 0;
+    }
+    int lastEle=v[v.size()-1];
+    int firstEle=v[0];
+
+    int left=0;
+    int right=v.size()-1;
+    int mid{};
+    while(left<=right){
+        mid=left+((right-left)>>1);
+        if(v[mid]==val){
+            return mid;
+            //如果0~n-1刚好是升序的
+        }else if(firstEle<lastEle){
+
+            if(v[mid]<val){
+                left=mid+1;
+            }else{
+                right=mid-1;
+            }
+            //如果是非常规的
+        }else{
+            //mid在尾结点的左边
+            if(v[mid]>v[0]){
+                //根据val和mid的大小关系，在mid左边1种情况，mid右边两种情况，故取左边的情况作为if判断的条件
+                if(val<v[mid]&&val>v[0]){
+                    right=mid-1;
+                }else{
+                    left=mid+1;
+                }
+            // mid在尾结点的右边
+            }else{
+                //根据val和mid的大小关系，在mid左边2种情况，mid右边1种情况，故取右边边的情况作为if判断的条件
+                if(val>v[mid]&&val<lastEle){
+                    left=mid+1;
+                }else{
+                    right=mid-1;
+                }
+            }
+        }
+    }
+
+    return -1;
+}
 int main() {
-    vector<int> v{1, 2,2,2,2,10};
+    vector<int> v{8,9,12,3, 5,6,7};
 //    mySqrt(2, 3);
 //    cout<<"first idx:"<<binarySearch_firstEqVal(v, 2);
-    cout<<"last idx: "<<binarySearch_lastEqVal(v, 2);
+//    cout<<"last idx: "<<binarySearch_lastEqVal(v, 2);
+//    cout<<"firstGtEqVal: "<<binarySearch_firstGtEqVal(v, 4)<<endl;
+//    cout<<"firstGtEqVal: "<<binarySearch_firstGtEqVal(v, 6)<<endl;
+//    cout<<"lastLeEqVal: "<<binarySearch_lastLeEqVal(v, 6);
+//    cout<<"lastLeEqVal: "<<binarySearch_lastLeEqVal(v, 12);
+//    cout<<"lastLeEqVal: "<<binarySearch_lastLeEqVal(v, -2);
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 8)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 7)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 9)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 10)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 3)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 5)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 4)<<endl;
+    cout<<"cycleBinarySearch: "<<binarySearch_cycleArray(v, 11)<<endl;
 }
