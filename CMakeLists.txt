@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(main main.cpp)
 add_executable(binarySearch sortAndFind/binarySearch.cpp)
+add_executable(binaryTree tree/binaryTree.cpp)
 add_executable(O_n2 sortAndFind/O_n2.cpp)
 add_executable(O_n sortAndFind/O_n.cpp)
 add_executable(O_lgn sortAndFind/O_lgn.cpp)
