@@ -149,6 +149,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named binaryTree
+
+# Build rule for target.
+binaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 binaryTree
+.PHONY : binaryTree
+
+# fast build rule for target.
+binaryTree/fast:
+	$(MAKE) -f CMakeFiles\binaryTree.dir\build.make CMakeFiles/binaryTree.dir/build
+.PHONY : binaryTree/fast
+
+#=============================================================================
 # Target rules for targets named longestCommonSubSequence
 
 # Build rule for target.
@@ -632,6 +645,33 @@ stack/addSubMulDiv.cpp.s:
 	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.s
 .PHONY : stack/addSubMulDiv.cpp.s
 
+tree/binaryTree.obj: tree/binaryTree.cpp.obj
+
+.PHONY : tree/binaryTree.obj
+
+# target to build an object file
+tree/binaryTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\binaryTree.dir\build.make CMakeFiles/binaryTree.dir/tree/binaryTree.cpp.obj
+.PHONY : tree/binaryTree.cpp.obj
+
+tree/binaryTree.i: tree/binaryTree.cpp.i
+
+.PHONY : tree/binaryTree.i
+
+# target to preprocess a source file
+tree/binaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles\binaryTree.dir\build.make CMakeFiles/binaryTree.dir/tree/binaryTree.cpp.i
+.PHONY : tree/binaryTree.cpp.i
+
+tree/binaryTree.s: tree/binaryTree.cpp.s
+
+.PHONY : tree/binaryTree.s
+
+# target to generate assembly for a file
+tree/binaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles\binaryTree.dir\build.make CMakeFiles/binaryTree.dir/tree/binaryTree.cpp.s
+.PHONY : tree/binaryTree.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -642,6 +682,7 @@ help:
 	@echo ... binarySearch
 	@echo ... edit_cache
 	@echo ... main
+	@echo ... binaryTree
 	@echo ... longestCommonSubSequence
 	@echo ... O_n
 	@echo ... O_n2
@@ -692,6 +733,9 @@ help:
 	@echo ... stack/addSubMulDiv.obj
 	@echo ... stack/addSubMulDiv.i
 	@echo ... stack/addSubMulDiv.s
+	@echo ... tree/binaryTree.obj
+	@echo ... tree/binaryTree.i
+	@echo ... tree/binaryTree.s
 .PHONY : help
 
 

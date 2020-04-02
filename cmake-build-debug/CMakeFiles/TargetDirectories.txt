@@ -2,6 +2,7 @@ D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/O_lgn.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/binarySearch.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/main.dir
+D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/binaryTree.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/longestCommonSubSequence.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/O_n.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/O_n2.dir
