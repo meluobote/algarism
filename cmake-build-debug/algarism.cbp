@@ -11,10 +11,10 @@
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="O_lgn">
@@ -24,19 +24,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_lgn"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_lgn"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="O_lgn/fast">
@@ -46,19 +45,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_lgn/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_lgn/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binarySearch">
@@ -68,19 +66,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearch"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearch"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binarySearch/fast">
@@ -90,29 +87,28 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearch/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearch/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
@@ -122,19 +118,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
@@ -144,19 +139,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binaryTree">
@@ -166,19 +160,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryTree"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryTree"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binaryTree/fast">
@@ -188,19 +181,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryTree/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 binaryTree/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="longestCommonSubSequence">
@@ -210,19 +202,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestCommonSubSequence"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestCommonSubSequence"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="longestCommonSubSequence/fast">
@@ -232,19 +223,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestCommonSubSequence/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestCommonSubSequence/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="O_n">
@@ -254,19 +244,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="O_n/fast">
@@ -276,19 +265,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="O_n2">
@@ -298,19 +286,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n2"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n2"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="O_n2/fast">
@@ -320,19 +307,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n2/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 O_n2/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fibonacci">
@@ -342,19 +328,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fibonacci/fast">
@@ -364,19 +349,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BestTaskDeploy">
@@ -386,19 +370,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 BestTaskDeploy"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 BestTaskDeploy"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BestTaskDeploy/fast">
@@ -408,19 +391,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 BestTaskDeploy/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 BestTaskDeploy/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="longestIncreasingSubSequence">
@@ -430,19 +412,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestIncreasingSubSequence"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestIncreasingSubSequence"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="longestIncreasingSubSequence/fast">
@@ -452,19 +433,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestIncreasingSubSequence/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestIncreasingSubSequence/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RodCutting">
@@ -474,19 +454,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 RodCutting"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 RodCutting"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RodCutting/fast">
@@ -496,19 +475,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 RodCutting/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 RodCutting/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="singleLinkedListHuiWenVertify">
@@ -518,19 +496,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 singleLinkedListHuiWenVertify"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 singleLinkedListHuiWenVertify"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="singleLinkedListHuiWenVertify/fast">
@@ -540,19 +517,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 singleLinkedListHuiWenVertify/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 singleLinkedListHuiWenVertify/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="yueSeFuHuan">
@@ -562,19 +538,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 yueSeFuHuan"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 yueSeFuHuan"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="yueSeFuHuan/fast">
@@ -584,19 +559,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 yueSeFuHuan/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 yueSeFuHuan/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="addSubMulDiv">
@@ -606,19 +580,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 addSubMulDiv"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 addSubMulDiv"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="addSubMulDiv/fast">
@@ -628,19 +601,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 addSubMulDiv/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 addSubMulDiv/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pile">
@@ -650,19 +622,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 pile"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 pile"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pile/fast">
@@ -672,29 +643,28 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="F:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="F:\MinGW64\mingw64\include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 pile/fast"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 pile/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

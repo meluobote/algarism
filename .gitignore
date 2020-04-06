@@ -44,3 +44,5 @@ cmake-build-debug/CMakeFiles/clion-log.txt
 *.out
 *.app
 /cmake-build-debug/
+/cmake-build-debug/
+/cmake-build-debug/
