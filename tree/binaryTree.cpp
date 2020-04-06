@@ -3,6 +3,9 @@
  * 作者：meluobote
  * 日期: 2020/4/1
  */
+#include <iostream>
+#include <vector>
+using namespace std;
 /*
  * 简单的树结构定义（数据存储不是void*类型， 也不能自定义比较方式）
  */
@@ -15,8 +18,11 @@ typedef struct Node{
 void addNodde(node_t* root, int val){
 
 }
-//用vector创建一颗树
+//用vector创建一颗树, 说明vector是一个完全二叉堆
 void createTree(vector<int> v){
-    struct Node* root= nullptr;
 
+}
+
+int main(){
+    vector<int>
 }

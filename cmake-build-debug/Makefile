@@ -149,6 +149,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named DFSandBFS
+
+# Build rule for target.
+DFSandBFS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DFSandBFS
+.PHONY : DFSandBFS
+
+# fast build rule for target.
+DFSandBFS/fast:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/build
+.PHONY : DFSandBFS/fast
+
+#=============================================================================
 # Target rules for targets named binaryTree
 
 # Build rule for target.
@@ -547,6 +560,60 @@ dynamicPro/longestIncreasingSubSequence.cpp.s:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.s
 .PHONY : dynamicPro/longestIncreasingSubSequence.cpp.s
 
+graph/DFSandBFS.obj: graph/DFSandBFS.cpp.obj
+
+.PHONY : graph/DFSandBFS.obj
+
+# target to build an object file
+graph/DFSandBFS.cpp.obj:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/graph/DFSandBFS.cpp.obj
+.PHONY : graph/DFSandBFS.cpp.obj
+
+graph/DFSandBFS.i: graph/DFSandBFS.cpp.i
+
+.PHONY : graph/DFSandBFS.i
+
+# target to preprocess a source file
+graph/DFSandBFS.cpp.i:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/graph/DFSandBFS.cpp.i
+.PHONY : graph/DFSandBFS.cpp.i
+
+graph/DFSandBFS.s: graph/DFSandBFS.cpp.s
+
+.PHONY : graph/DFSandBFS.s
+
+# target to generate assembly for a file
+graph/DFSandBFS.cpp.s:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/graph/DFSandBFS.cpp.s
+.PHONY : graph/DFSandBFS.cpp.s
+
+graph/Graph.obj: graph/Graph.cpp.obj
+
+.PHONY : graph/Graph.obj
+
+# target to build an object file
+graph/Graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/graph/Graph.cpp.obj
+.PHONY : graph/Graph.cpp.obj
+
+graph/Graph.i: graph/Graph.cpp.i
+
+.PHONY : graph/Graph.i
+
+# target to preprocess a source file
+graph/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/graph/Graph.cpp.i
+.PHONY : graph/Graph.cpp.i
+
+graph/Graph.s: graph/Graph.cpp.s
+
+.PHONY : graph/Graph.s
+
+# target to generate assembly for a file
+graph/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles\DFSandBFS.dir\build.make CMakeFiles/DFSandBFS.dir/graph/Graph.cpp.s
+.PHONY : graph/Graph.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -722,6 +789,7 @@ help:
 	@echo ... binarySearch
 	@echo ... edit_cache
 	@echo ... main
+	@echo ... DFSandBFS
 	@echo ... binaryTree
 	@echo ... longestCommonSubSequence
 	@echo ... O_n
@@ -762,6 +830,12 @@ help:
 	@echo ... dynamicPro/longestIncreasingSubSequence.obj
 	@echo ... dynamicPro/longestIncreasingSubSequence.i
 	@echo ... dynamicPro/longestIncreasingSubSequence.s
+	@echo ... graph/DFSandBFS.obj
+	@echo ... graph/DFSandBFS.i
+	@echo ... graph/DFSandBFS.s
+	@echo ... graph/Graph.obj
+	@echo ... graph/Graph.i
+	@echo ... graph/Graph.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
