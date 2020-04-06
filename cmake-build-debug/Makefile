@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\code\cplusplus\algarism\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -291,6 +291,19 @@ addSubMulDiv/fast:
 	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/build
 .PHONY : addSubMulDiv/fast
 
+#=============================================================================
+# Target rules for targets named pile
+
+# Build rule for target.
+pile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pile
+.PHONY : pile
+
+# fast build rule for target.
+pile/fast:
+	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/build
+.PHONY : pile/fast
+
 LinkedList/singleLinkedListHuiWenVertify.obj: LinkedList/singleLinkedListHuiWenVertify.cpp.obj
 
 .PHONY : LinkedList/singleLinkedListHuiWenVertify.obj
@@ -344,6 +357,60 @@ LinkedList/yueSeFuHuan.s: LinkedList/yueSeFuHuan.cpp.s
 LinkedList/yueSeFuHuan.cpp.s:
 	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/LinkedList/yueSeFuHuan.cpp.s
 .PHONY : LinkedList/yueSeFuHuan.cpp.s
+
+dataStruct/addSubMulDiv.obj: dataStruct/addSubMulDiv.cpp.obj
+
+.PHONY : dataStruct/addSubMulDiv.obj
+
+# target to build an object file
+dataStruct/addSubMulDiv.cpp.obj:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/dataStruct/addSubMulDiv.cpp.obj
+.PHONY : dataStruct/addSubMulDiv.cpp.obj
+
+dataStruct/addSubMulDiv.i: dataStruct/addSubMulDiv.cpp.i
+
+.PHONY : dataStruct/addSubMulDiv.i
+
+# target to preprocess a source file
+dataStruct/addSubMulDiv.cpp.i:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/dataStruct/addSubMulDiv.cpp.i
+.PHONY : dataStruct/addSubMulDiv.cpp.i
+
+dataStruct/addSubMulDiv.s: dataStruct/addSubMulDiv.cpp.s
+
+.PHONY : dataStruct/addSubMulDiv.s
+
+# target to generate assembly for a file
+dataStruct/addSubMulDiv.cpp.s:
+	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/dataStruct/addSubMulDiv.cpp.s
+.PHONY : dataStruct/addSubMulDiv.cpp.s
+
+dataStruct/pile.obj: dataStruct/pile.cpp.obj
+
+.PHONY : dataStruct/pile.obj
+
+# target to build an object file
+dataStruct/pile.cpp.obj:
+	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/dataStruct/pile.cpp.obj
+.PHONY : dataStruct/pile.cpp.obj
+
+dataStruct/pile.i: dataStruct/pile.cpp.i
+
+.PHONY : dataStruct/pile.i
+
+# target to preprocess a source file
+dataStruct/pile.cpp.i:
+	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/dataStruct/pile.cpp.i
+.PHONY : dataStruct/pile.cpp.i
+
+dataStruct/pile.s: dataStruct/pile.cpp.s
+
+.PHONY : dataStruct/pile.s
+
+# target to generate assembly for a file
+dataStruct/pile.cpp.s:
+	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/dataStruct/pile.cpp.s
+.PHONY : dataStruct/pile.cpp.s
 
 dynamicPro/BestTaskDeploy.obj: dynamicPro/BestTaskDeploy.cpp.obj
 
@@ -618,33 +685,6 @@ sortAndFind/binarySearch.cpp.s:
 	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/sortAndFind/binarySearch.cpp.s
 .PHONY : sortAndFind/binarySearch.cpp.s
 
-stack/addSubMulDiv.obj: stack/addSubMulDiv.cpp.obj
-
-.PHONY : stack/addSubMulDiv.obj
-
-# target to build an object file
-stack/addSubMulDiv.cpp.obj:
-	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.obj
-.PHONY : stack/addSubMulDiv.cpp.obj
-
-stack/addSubMulDiv.i: stack/addSubMulDiv.cpp.i
-
-.PHONY : stack/addSubMulDiv.i
-
-# target to preprocess a source file
-stack/addSubMulDiv.cpp.i:
-	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.i
-.PHONY : stack/addSubMulDiv.cpp.i
-
-stack/addSubMulDiv.s: stack/addSubMulDiv.cpp.s
-
-.PHONY : stack/addSubMulDiv.s
-
-# target to generate assembly for a file
-stack/addSubMulDiv.cpp.s:
-	$(MAKE) -f CMakeFiles\addSubMulDiv.dir\build.make CMakeFiles/addSubMulDiv.dir/stack/addSubMulDiv.cpp.s
-.PHONY : stack/addSubMulDiv.cpp.s
-
 tree/binaryTree.obj: tree/binaryTree.cpp.obj
 
 .PHONY : tree/binaryTree.obj
@@ -693,6 +733,7 @@ help:
 	@echo ... singleLinkedListHuiWenVertify
 	@echo ... yueSeFuHuan
 	@echo ... addSubMulDiv
+	@echo ... pile
 	@echo ... rebuild_cache
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.i
@@ -700,6 +741,12 @@ help:
 	@echo ... LinkedList/yueSeFuHuan.obj
 	@echo ... LinkedList/yueSeFuHuan.i
 	@echo ... LinkedList/yueSeFuHuan.s
+	@echo ... dataStruct/addSubMulDiv.obj
+	@echo ... dataStruct/addSubMulDiv.i
+	@echo ... dataStruct/addSubMulDiv.s
+	@echo ... dataStruct/pile.obj
+	@echo ... dataStruct/pile.i
+	@echo ... dataStruct/pile.s
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
 	@echo ... dynamicPro/BestTaskDeploy.s
@@ -730,9 +777,6 @@ help:
 	@echo ... sortAndFind/binarySearch.obj
 	@echo ... sortAndFind/binarySearch.i
 	@echo ... sortAndFind/binarySearch.s
-	@echo ... stack/addSubMulDiv.obj
-	@echo ... stack/addSubMulDiv.i
-	@echo ... stack/addSubMulDiv.s
 	@echo ... tree/binaryTree.obj
 	@echo ... tree/binaryTree.i
 	@echo ... tree/binaryTree.s

@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,15 +59,15 @@ include CMakeFiles/RodCutting.dir/flags.make
 CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.obj: CMakeFiles/RodCutting.dir/flags.make
 CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.obj: ../dynamicPro/RodCutting.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.obj"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RodCutting.dir\dynamicPro\RodCutting.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\RodCutting.cpp
+	F:\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RodCutting.dir\dynamicPro\RodCutting.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\RodCutting.cpp
 
 CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.i"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\RodCutting.cpp > CMakeFiles\RodCutting.dir\dynamicPro\RodCutting.cpp.i
+	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\RodCutting.cpp > CMakeFiles\RodCutting.dir\dynamicPro\RodCutting.cpp.i
 
 CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.s"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\RodCutting.cpp -o CMakeFiles\RodCutting.dir\dynamicPro\RodCutting.cpp.s
+	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\RodCutting.cpp -o CMakeFiles\RodCutting.dir\dynamicPro\RodCutting.cpp.s
 
 # Object files for target RodCutting
 RodCutting_OBJECTS = \

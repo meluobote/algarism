@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\algarism.dir/objects.a
-"D:\Program Files\Mingw\mingw64\bin\ar.exe" cr CMakeFiles\algarism.dir/objects.a @CMakeFiles\algarism.dir\objects1.rsp
-"D:\Program Files\Mingw\mingw64\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\algarism.dir/objects.a -Wl,--no-whole-archive  -o algarism.exe -Wl,--out-implib,libalgarism.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algarism.dir\linklibs.rsp
