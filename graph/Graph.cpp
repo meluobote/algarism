@@ -64,3 +64,7 @@ void Graph::printRoute(vector<int>& prev, int s, int v) {
     }
     cout<<v<<" ";
 }
+
+void Graph::dfs(int s, int t) {
+
+}
