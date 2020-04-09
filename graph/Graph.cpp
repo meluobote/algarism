@@ -109,10 +109,6 @@ void Graph::dfs(int s, int t) {
 /*
  * dfs 采用栈的方式
  */
-void Graph::dfsWithStack(int s, int t) {
-
-}
-
-void Graph::dfs(int s, int t) {
-
-}
+//void Graph::dfsWithStack(int s, int t) {
+//
+//}

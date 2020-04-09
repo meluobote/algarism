@@ -22,7 +22,7 @@ public:
     void bfs(int s, int t); //广度优先搜索
     void printRoute(vector<int>& prev, int s, int v);
     void dfs(int s, int t); //深度优先搜索 利用递归
-    void dfsWithStack(int s, int t); //深度优先搜索 利用栈
+//    void dfsWithStack(int s, int t); //深度优先搜索 利用栈
 };
 
 
