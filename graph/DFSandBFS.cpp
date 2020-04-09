@@ -4,7 +4,14 @@
  * 日期: 2020/4/6
  */
 #include "Graph.h"
-
+#include <iostream>
+using namespace std;
+void print(vector<int>& v){
+    for(auto e:v){
+        cout<<e<<" ";
+    }
+    cout<<endl;
+}
 
 int main() {
     /*
@@ -23,6 +30,9 @@ int main() {
     graph.addEdge(6,7);
 
     //广度优先搜索
-    graph.bfs(0,7);
+//    graph.bfs(0,7);
 
+    //深度优先搜索
+    graph.dfs(0,7);
+    print(graph.dfsroute);
 }
