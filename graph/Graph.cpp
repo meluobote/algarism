@@ -112,3 +112,7 @@ void Graph::dfs(int s, int t) {
 void Graph::dfsWithStack(int s, int t) {
 
 }
+
+void Graph::dfs(int s, int t) {
+
+}
