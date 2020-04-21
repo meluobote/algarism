@@ -195,6 +195,48 @@
 					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="eightQueen">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/eightQueen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 eightQueen"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eightQueen/fast">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/eightQueen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 eightQueen/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="binaryTree">
 				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/binaryTree.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
@@ -489,6 +531,48 @@
 					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="bag01">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/bag01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 bag01"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bag01/fast">
+				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/bag01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 bag01/fast"/>
+					<CompileFile command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/code/cplusplus/algarism/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="RodCutting">
 				<Option output="D:/code/cplusplus/algarism/cmake-build-debug/RodCutting.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/cplusplus/algarism/cmake-build-debug"/>
@@ -716,6 +800,9 @@
 		<Unit filename="D:/code/cplusplus/algarism/LinkedList/yueSeFuHuan.cpp">
 			<Option target="yueSeFuHuan"/>
 		</Unit>
+		<Unit filename="D:/code/cplusplus/algarism/backTracking/eightQueen.cpp">
+			<Option target="eightQueen"/>
+		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/dataStruct/addSubMulDiv.cpp">
 			<Option target="addSubMulDiv"/>
 		</Unit>
@@ -727,6 +814,9 @@
 		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/RodCutting.cpp">
 			<Option target="RodCutting"/>
+		</Unit>
+		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/bag01.cpp">
+			<Option target="bag01"/>
 		</Unit>
 		<Unit filename="D:/code/cplusplus/algarism/dynamicPro/fibonacci.cpp">
 			<Option target="fibonacci"/>

@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,15 +59,15 @@ include CMakeFiles/fibonacci.dir/flags.make
 CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.obj: CMakeFiles/fibonacci.dir/flags.make
 CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.obj: ../dynamicPro/fibonacci.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.obj"
-	F:\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fibonacci.dir\dynamicPro\fibonacci.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\fibonacci.cpp
+	"D:\Program Files\Mingw\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fibonacci.dir\dynamicPro\fibonacci.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\fibonacci.cpp
 
 CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.i"
-	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\fibonacci.cpp > CMakeFiles\fibonacci.dir\dynamicPro\fibonacci.cpp.i
+	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\fibonacci.cpp > CMakeFiles\fibonacci.dir\dynamicPro\fibonacci.cpp.i
 
 CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fibonacci.dir/dynamicPro/fibonacci.cpp.s"
-	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\fibonacci.cpp -o CMakeFiles\fibonacci.dir\dynamicPro\fibonacci.cpp.s
+	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\fibonacci.cpp -o CMakeFiles\fibonacci.dir\dynamicPro\fibonacci.cpp.s
 
 # Object files for target fibonacci
 fibonacci_OBJECTS = \

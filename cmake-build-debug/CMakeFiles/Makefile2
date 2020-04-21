@@ -34,10 +34,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,6 +56,7 @@ all: CMakeFiles/O_lgn.dir/all
 all: CMakeFiles/binarySearch.dir/all
 all: CMakeFiles/main.dir/all
 all: CMakeFiles/DFSandBFS.dir/all
+all: CMakeFiles/eightQueen.dir/all
 all: CMakeFiles/binaryTree.dir/all
 all: CMakeFiles/longestCommonSubSequence.dir/all
 all: CMakeFiles/O_n.dir/all
@@ -63,6 +64,7 @@ all: CMakeFiles/O_n2.dir/all
 all: CMakeFiles/fibonacci.dir/all
 all: CMakeFiles/BestTaskDeploy.dir/all
 all: CMakeFiles/longestIncreasingSubSequence.dir/all
+all: CMakeFiles/bag01.dir/all
 all: CMakeFiles/RodCutting.dir/all
 all: CMakeFiles/singleLinkedListHuiWenVertify.dir/all
 all: CMakeFiles/yueSeFuHuan.dir/all
@@ -76,6 +78,7 @@ clean: CMakeFiles/O_lgn.dir/clean
 clean: CMakeFiles/binarySearch.dir/clean
 clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/DFSandBFS.dir/clean
+clean: CMakeFiles/eightQueen.dir/clean
 clean: CMakeFiles/binaryTree.dir/clean
 clean: CMakeFiles/longestCommonSubSequence.dir/clean
 clean: CMakeFiles/O_n.dir/clean
@@ -83,6 +86,7 @@ clean: CMakeFiles/O_n2.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 clean: CMakeFiles/BestTaskDeploy.dir/clean
 clean: CMakeFiles/longestIncreasingSubSequence.dir/clean
+clean: CMakeFiles/bag01.dir/clean
 clean: CMakeFiles/RodCutting.dir/clean
 clean: CMakeFiles/singleLinkedListHuiWenVertify.dir/clean
 clean: CMakeFiles/yueSeFuHuan.dir/clean
@@ -130,7 +134,7 @@ CMakeFiles/O_lgn.dir/clean:
 CMakeFiles/binarySearch.dir/all:
 	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/depend
 	$(MAKE) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target binarySearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target binarySearch"
 .PHONY : CMakeFiles/binarySearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,7 +161,7 @@ CMakeFiles/binarySearch.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,13 +209,40 @@ CMakeFiles/DFSandBFS.dir/clean:
 .PHONY : CMakeFiles/DFSandBFS.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/eightQueen.dir
+
+# All Build rule for target.
+CMakeFiles/eightQueen.dir/all:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/depend
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target eightQueen"
+.PHONY : CMakeFiles/eightQueen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/eightQueen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/eightQueen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/eightQueen.dir/rule
+
+# Convenience name for target.
+eightQueen: CMakeFiles/eightQueen.dir/rule
+
+.PHONY : eightQueen
+
+# clean rule for target.
+CMakeFiles/eightQueen.dir/clean:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/clean
+.PHONY : CMakeFiles/eightQueen.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/binaryTree.dir
 
 # All Build rule for target.
 CMakeFiles/binaryTree.dir/all:
 	$(MAKE) -f CMakeFiles\binaryTree.dir\build.make CMakeFiles/binaryTree.dir/depend
 	$(MAKE) -f CMakeFiles\binaryTree.dir\build.make CMakeFiles/binaryTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target binaryTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target binaryTree"
 .PHONY : CMakeFiles/binaryTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +269,7 @@ CMakeFiles/binaryTree.dir/clean:
 CMakeFiles/longestCommonSubSequence.dir/all:
 	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/depend
 	$(MAKE) -f CMakeFiles\longestCommonSubSequence.dir\build.make CMakeFiles/longestCommonSubSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target longestCommonSubSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target longestCommonSubSequence"
 .PHONY : CMakeFiles/longestCommonSubSequence.dir/all
 
 # Build rule for subdir invocation for target.
@@ -319,7 +350,7 @@ CMakeFiles/O_n2.dir/clean:
 CMakeFiles/fibonacci.dir/all:
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/depend
 	$(MAKE) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target fibonacci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target fibonacci"
 .PHONY : CMakeFiles/fibonacci.dir/all
 
 # Build rule for subdir invocation for target.
@@ -373,7 +404,7 @@ CMakeFiles/BestTaskDeploy.dir/clean:
 CMakeFiles/longestIncreasingSubSequence.dir/all:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/depend
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target longestIncreasingSubSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target longestIncreasingSubSequence"
 .PHONY : CMakeFiles/longestIncreasingSubSequence.dir/all
 
 # Build rule for subdir invocation for target.
@@ -392,6 +423,33 @@ longestIncreasingSubSequence: CMakeFiles/longestIncreasingSubSequence.dir/rule
 CMakeFiles/longestIncreasingSubSequence.dir/clean:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/clean
 .PHONY : CMakeFiles/longestIncreasingSubSequence.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bag01.dir
+
+# All Build rule for target.
+CMakeFiles/bag01.dir/all:
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/depend
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target bag01"
+.PHONY : CMakeFiles/bag01.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bag01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/bag01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/bag01.dir/rule
+
+# Convenience name for target.
+bag01: CMakeFiles/bag01.dir/rule
+
+.PHONY : bag01
+
+# clean rule for target.
+CMakeFiles/bag01.dir/clean:
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/clean
+.PHONY : CMakeFiles/bag01.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/RodCutting.dir
@@ -427,7 +485,7 @@ CMakeFiles/RodCutting.dir/clean:
 CMakeFiles/singleLinkedListHuiWenVertify.dir/all:
 	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/depend
 	$(MAKE) -f CMakeFiles\singleLinkedListHuiWenVertify.dir\build.make CMakeFiles/singleLinkedListHuiWenVertify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target singleLinkedListHuiWenVertify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target singleLinkedListHuiWenVertify"
 .PHONY : CMakeFiles/singleLinkedListHuiWenVertify.dir/all
 
 # Build rule for subdir invocation for target.
@@ -454,7 +512,7 @@ CMakeFiles/singleLinkedListHuiWenVertify.dir/clean:
 CMakeFiles/yueSeFuHuan.dir/all:
 	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/depend
 	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target yueSeFuHuan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target yueSeFuHuan"
 .PHONY : CMakeFiles/yueSeFuHuan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -508,7 +566,7 @@ CMakeFiles/addSubMulDiv.dir/clean:
 CMakeFiles/pile.dir/all:
 	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/depend
 	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target pile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target pile"
 .PHONY : CMakeFiles/pile.dir/all
 
 # Build rule for subdir invocation for target.

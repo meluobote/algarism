@@ -3,6 +3,7 @@ D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/binarySearch.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/main.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/DFSandBFS.dir
+D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/eightQueen.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/binaryTree.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/longestCommonSubSequence.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/O_n.dir
@@ -10,6 +11,7 @@ D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/O_n2.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/fibonacci.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/BestTaskDeploy.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/longestIncreasingSubSequence.dir
+D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/bag01.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/RodCutting.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/singleLinkedListHuiWenVertify.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/yueSeFuHuan.dir

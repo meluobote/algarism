@@ -162,6 +162,19 @@ DFSandBFS/fast:
 .PHONY : DFSandBFS/fast
 
 #=============================================================================
+# Target rules for targets named eightQueen
+
+# Build rule for target.
+eightQueen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 eightQueen
+.PHONY : eightQueen
+
+# fast build rule for target.
+eightQueen/fast:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/build
+.PHONY : eightQueen/fast
+
+#=============================================================================
 # Target rules for targets named binaryTree
 
 # Build rule for target.
@@ -251,6 +264,19 @@ longestIncreasingSubSequence: cmake_check_build_system
 longestIncreasingSubSequence/fast:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/build
 .PHONY : longestIncreasingSubSequence/fast
+
+#=============================================================================
+# Target rules for targets named bag01
+
+# Build rule for target.
+bag01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bag01
+.PHONY : bag01
+
+# fast build rule for target.
+bag01/fast:
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/build
+.PHONY : bag01/fast
 
 #=============================================================================
 # Target rules for targets named RodCutting
@@ -371,6 +397,33 @@ LinkedList/yueSeFuHuan.cpp.s:
 	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/LinkedList/yueSeFuHuan.cpp.s
 .PHONY : LinkedList/yueSeFuHuan.cpp.s
 
+backTracking/eightQueen.obj: backTracking/eightQueen.cpp.obj
+
+.PHONY : backTracking/eightQueen.obj
+
+# target to build an object file
+backTracking/eightQueen.cpp.obj:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/backTracking/eightQueen.cpp.obj
+.PHONY : backTracking/eightQueen.cpp.obj
+
+backTracking/eightQueen.i: backTracking/eightQueen.cpp.i
+
+.PHONY : backTracking/eightQueen.i
+
+# target to preprocess a source file
+backTracking/eightQueen.cpp.i:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/backTracking/eightQueen.cpp.i
+.PHONY : backTracking/eightQueen.cpp.i
+
+backTracking/eightQueen.s: backTracking/eightQueen.cpp.s
+
+.PHONY : backTracking/eightQueen.s
+
+# target to generate assembly for a file
+backTracking/eightQueen.cpp.s:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/backTracking/eightQueen.cpp.s
+.PHONY : backTracking/eightQueen.cpp.s
+
 dataStruct/addSubMulDiv.obj: dataStruct/addSubMulDiv.cpp.obj
 
 .PHONY : dataStruct/addSubMulDiv.obj
@@ -478,6 +531,33 @@ dynamicPro/RodCutting.s: dynamicPro/RodCutting.cpp.s
 dynamicPro/RodCutting.cpp.s:
 	$(MAKE) -f CMakeFiles\RodCutting.dir\build.make CMakeFiles/RodCutting.dir/dynamicPro/RodCutting.cpp.s
 .PHONY : dynamicPro/RodCutting.cpp.s
+
+dynamicPro/bag01.obj: dynamicPro/bag01.cpp.obj
+
+.PHONY : dynamicPro/bag01.obj
+
+# target to build an object file
+dynamicPro/bag01.cpp.obj:
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/dynamicPro/bag01.cpp.obj
+.PHONY : dynamicPro/bag01.cpp.obj
+
+dynamicPro/bag01.i: dynamicPro/bag01.cpp.i
+
+.PHONY : dynamicPro/bag01.i
+
+# target to preprocess a source file
+dynamicPro/bag01.cpp.i:
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/dynamicPro/bag01.cpp.i
+.PHONY : dynamicPro/bag01.cpp.i
+
+dynamicPro/bag01.s: dynamicPro/bag01.cpp.s
+
+.PHONY : dynamicPro/bag01.s
+
+# target to generate assembly for a file
+dynamicPro/bag01.cpp.s:
+	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/dynamicPro/bag01.cpp.s
+.PHONY : dynamicPro/bag01.cpp.s
 
 dynamicPro/fibonacci.obj: dynamicPro/fibonacci.cpp.obj
 
@@ -790,6 +870,7 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... DFSandBFS
+	@echo ... eightQueen
 	@echo ... binaryTree
 	@echo ... longestCommonSubSequence
 	@echo ... O_n
@@ -797,6 +878,7 @@ help:
 	@echo ... fibonacci
 	@echo ... BestTaskDeploy
 	@echo ... longestIncreasingSubSequence
+	@echo ... bag01
 	@echo ... RodCutting
 	@echo ... singleLinkedListHuiWenVertify
 	@echo ... yueSeFuHuan
@@ -809,6 +891,9 @@ help:
 	@echo ... LinkedList/yueSeFuHuan.obj
 	@echo ... LinkedList/yueSeFuHuan.i
 	@echo ... LinkedList/yueSeFuHuan.s
+	@echo ... backTracking/eightQueen.obj
+	@echo ... backTracking/eightQueen.i
+	@echo ... backTracking/eightQueen.s
 	@echo ... dataStruct/addSubMulDiv.obj
 	@echo ... dataStruct/addSubMulDiv.i
 	@echo ... dataStruct/addSubMulDiv.s
@@ -821,6 +906,9 @@ help:
 	@echo ... dynamicPro/RodCutting.obj
 	@echo ... dynamicPro/RodCutting.i
 	@echo ... dynamicPro/RodCutting.s
+	@echo ... dynamicPro/bag01.obj
+	@echo ... dynamicPro/bag01.i
+	@echo ... dynamicPro/bag01.s
 	@echo ... dynamicPro/fibonacci.obj
 	@echo ... dynamicPro/fibonacci.i
 	@echo ... dynamicPro/fibonacci.s
