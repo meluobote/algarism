@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named coinsForChange
+
+# Build rule for target.
+coinsForChange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 coinsForChange
+.PHONY : coinsForChange
+
+# fast build rule for target.
+coinsForChange/fast:
+	$(MAKE) -f CMakeFiles\coinsForChange.dir\build.make CMakeFiles/coinsForChange.dir/build
+.PHONY : coinsForChange/fast
+
+#=============================================================================
 # Target rules for targets named O_lgn
 
 # Build rule for target.
@@ -612,6 +625,33 @@ dynamicPro/bag01.cpp.s:
 	$(MAKE) -f CMakeFiles\bag01.dir\build.make CMakeFiles/bag01.dir/dynamicPro/bag01.cpp.s
 .PHONY : dynamicPro/bag01.cpp.s
 
+dynamicPro/coinsForChange.obj: dynamicPro/coinsForChange.cpp.obj
+
+.PHONY : dynamicPro/coinsForChange.obj
+
+# target to build an object file
+dynamicPro/coinsForChange.cpp.obj:
+	$(MAKE) -f CMakeFiles\coinsForChange.dir\build.make CMakeFiles/coinsForChange.dir/dynamicPro/coinsForChange.cpp.obj
+.PHONY : dynamicPro/coinsForChange.cpp.obj
+
+dynamicPro/coinsForChange.i: dynamicPro/coinsForChange.cpp.i
+
+.PHONY : dynamicPro/coinsForChange.i
+
+# target to preprocess a source file
+dynamicPro/coinsForChange.cpp.i:
+	$(MAKE) -f CMakeFiles\coinsForChange.dir\build.make CMakeFiles/coinsForChange.dir/dynamicPro/coinsForChange.cpp.i
+.PHONY : dynamicPro/coinsForChange.cpp.i
+
+dynamicPro/coinsForChange.s: dynamicPro/coinsForChange.cpp.s
+
+.PHONY : dynamicPro/coinsForChange.s
+
+# target to generate assembly for a file
+dynamicPro/coinsForChange.cpp.s:
+	$(MAKE) -f CMakeFiles\coinsForChange.dir\build.make CMakeFiles/coinsForChange.dir/dynamicPro/coinsForChange.cpp.s
+.PHONY : dynamicPro/coinsForChange.cpp.s
+
 dynamicPro/fibonacci.obj: dynamicPro/fibonacci.cpp.obj
 
 .PHONY : dynamicPro/fibonacci.obj
@@ -945,6 +985,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... coinsForChange
 	@echo ... O_lgn
 	@echo ... binarySearch
 	@echo ... edit_cache
@@ -994,6 +1035,9 @@ help:
 	@echo ... dynamicPro/bag01.obj
 	@echo ... dynamicPro/bag01.i
 	@echo ... dynamicPro/bag01.s
+	@echo ... dynamicPro/coinsForChange.obj
+	@echo ... dynamicPro/coinsForChange.i
+	@echo ... dynamicPro/coinsForChange.s
 	@echo ... dynamicPro/fibonacci.obj
 	@echo ... dynamicPro/fibonacci.i
 	@echo ... dynamicPro/fibonacci.s

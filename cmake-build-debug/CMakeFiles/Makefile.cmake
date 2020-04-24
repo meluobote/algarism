@@ -53,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/coinsForChange.dir/DependInfo.cmake"
   "CMakeFiles/O_lgn.dir/DependInfo.cmake"
   "CMakeFiles/binarySearch.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"

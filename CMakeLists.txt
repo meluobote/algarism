@@ -23,3 +23,4 @@ add_executable(singleLinkedListHuiWenVertify LinkedList/singleLinkedListHuiWenVe
 add_executable(yueSeFuHuan LinkedList/yueSeFuHuan.cpp)
 add_executable(addSubMulDiv dataStruct/addSubMulDiv.cpp sortAndFind/O_lgn.cpp)
 add_executable(pile dataStruct/pile.cpp)
+add_executable(coinsForChange dynamicPro/coinsForChange.cpp)
