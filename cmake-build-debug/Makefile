@@ -279,6 +279,32 @@ bag01/fast:
 .PHONY : bag01/fast
 
 #=============================================================================
+# Target rules for targets named backTrackBag01
+
+# Build rule for target.
+backTrackBag01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 backTrackBag01
+.PHONY : backTrackBag01
+
+# fast build rule for target.
+backTrackBag01/fast:
+	$(MAKE) -f CMakeFiles\backTrackBag01.dir\build.make CMakeFiles/backTrackBag01.dir/build
+.PHONY : backTrackBag01/fast
+
+#=============================================================================
+# Target rules for targets named yangHuiSanJiao
+
+# Build rule for target.
+yangHuiSanJiao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 yangHuiSanJiao
+.PHONY : yangHuiSanJiao
+
+# fast build rule for target.
+yangHuiSanJiao/fast:
+	$(MAKE) -f CMakeFiles\yangHuiSanJiao.dir\build.make CMakeFiles/yangHuiSanJiao.dir/build
+.PHONY : yangHuiSanJiao/fast
+
+#=============================================================================
 # Target rules for targets named RodCutting
 
 # Build rule for target.
@@ -396,6 +422,33 @@ LinkedList/yueSeFuHuan.s: LinkedList/yueSeFuHuan.cpp.s
 LinkedList/yueSeFuHuan.cpp.s:
 	$(MAKE) -f CMakeFiles\yueSeFuHuan.dir\build.make CMakeFiles/yueSeFuHuan.dir/LinkedList/yueSeFuHuan.cpp.s
 .PHONY : LinkedList/yueSeFuHuan.cpp.s
+
+backTracking/bag01.obj: backTracking/bag01.cpp.obj
+
+.PHONY : backTracking/bag01.obj
+
+# target to build an object file
+backTracking/bag01.cpp.obj:
+	$(MAKE) -f CMakeFiles\backTrackBag01.dir\build.make CMakeFiles/backTrackBag01.dir/backTracking/bag01.cpp.obj
+.PHONY : backTracking/bag01.cpp.obj
+
+backTracking/bag01.i: backTracking/bag01.cpp.i
+
+.PHONY : backTracking/bag01.i
+
+# target to preprocess a source file
+backTracking/bag01.cpp.i:
+	$(MAKE) -f CMakeFiles\backTrackBag01.dir\build.make CMakeFiles/backTrackBag01.dir/backTracking/bag01.cpp.i
+.PHONY : backTracking/bag01.cpp.i
+
+backTracking/bag01.s: backTracking/bag01.cpp.s
+
+.PHONY : backTracking/bag01.s
+
+# target to generate assembly for a file
+backTracking/bag01.cpp.s:
+	$(MAKE) -f CMakeFiles\backTrackBag01.dir\build.make CMakeFiles/backTrackBag01.dir/backTracking/bag01.cpp.s
+.PHONY : backTracking/bag01.cpp.s
 
 backTracking/eightQueen.obj: backTracking/eightQueen.cpp.obj
 
@@ -640,6 +693,33 @@ dynamicPro/longestIncreasingSubSequence.cpp.s:
 	$(MAKE) -f CMakeFiles\longestIncreasingSubSequence.dir\build.make CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.s
 .PHONY : dynamicPro/longestIncreasingSubSequence.cpp.s
 
+dynamicPro/yangHuiSanJiao.obj: dynamicPro/yangHuiSanJiao.cpp.obj
+
+.PHONY : dynamicPro/yangHuiSanJiao.obj
+
+# target to build an object file
+dynamicPro/yangHuiSanJiao.cpp.obj:
+	$(MAKE) -f CMakeFiles\yangHuiSanJiao.dir\build.make CMakeFiles/yangHuiSanJiao.dir/dynamicPro/yangHuiSanJiao.cpp.obj
+.PHONY : dynamicPro/yangHuiSanJiao.cpp.obj
+
+dynamicPro/yangHuiSanJiao.i: dynamicPro/yangHuiSanJiao.cpp.i
+
+.PHONY : dynamicPro/yangHuiSanJiao.i
+
+# target to preprocess a source file
+dynamicPro/yangHuiSanJiao.cpp.i:
+	$(MAKE) -f CMakeFiles\yangHuiSanJiao.dir\build.make CMakeFiles/yangHuiSanJiao.dir/dynamicPro/yangHuiSanJiao.cpp.i
+.PHONY : dynamicPro/yangHuiSanJiao.cpp.i
+
+dynamicPro/yangHuiSanJiao.s: dynamicPro/yangHuiSanJiao.cpp.s
+
+.PHONY : dynamicPro/yangHuiSanJiao.s
+
+# target to generate assembly for a file
+dynamicPro/yangHuiSanJiao.cpp.s:
+	$(MAKE) -f CMakeFiles\yangHuiSanJiao.dir\build.make CMakeFiles/yangHuiSanJiao.dir/dynamicPro/yangHuiSanJiao.cpp.s
+.PHONY : dynamicPro/yangHuiSanJiao.cpp.s
+
 graph/DFSandBFS.obj: graph/DFSandBFS.cpp.obj
 
 .PHONY : graph/DFSandBFS.obj
@@ -879,18 +959,23 @@ help:
 	@echo ... BestTaskDeploy
 	@echo ... longestIncreasingSubSequence
 	@echo ... bag01
+	@echo ... backTrackBag01
+	@echo ... rebuild_cache
+	@echo ... yangHuiSanJiao
 	@echo ... RodCutting
 	@echo ... singleLinkedListHuiWenVertify
 	@echo ... yueSeFuHuan
 	@echo ... addSubMulDiv
 	@echo ... pile
-	@echo ... rebuild_cache
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.i
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.s
 	@echo ... LinkedList/yueSeFuHuan.obj
 	@echo ... LinkedList/yueSeFuHuan.i
 	@echo ... LinkedList/yueSeFuHuan.s
+	@echo ... backTracking/bag01.obj
+	@echo ... backTracking/bag01.i
+	@echo ... backTracking/bag01.s
 	@echo ... backTracking/eightQueen.obj
 	@echo ... backTracking/eightQueen.i
 	@echo ... backTracking/eightQueen.s
@@ -918,6 +1003,9 @@ help:
 	@echo ... dynamicPro/longestIncreasingSubSequence.obj
 	@echo ... dynamicPro/longestIncreasingSubSequence.i
 	@echo ... dynamicPro/longestIncreasingSubSequence.s
+	@echo ... dynamicPro/yangHuiSanJiao.obj
+	@echo ... dynamicPro/yangHuiSanJiao.i
+	@echo ... dynamicPro/yangHuiSanJiao.s
 	@echo ... graph/DFSandBFS.obj
 	@echo ... graph/DFSandBFS.i
 	@echo ... graph/DFSandBFS.s

@@ -12,9 +12,11 @@ D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/fibonacci.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/BestTaskDeploy.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/longestIncreasingSubSequence.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/bag01.dir
+D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/backTrackBag01.dir
+D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/yangHuiSanJiao.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/RodCutting.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/singleLinkedListHuiWenVertify.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/yueSeFuHuan.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/addSubMulDiv.dir
 D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/pile.dir
-D:/code/cplusplus/algarism/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -66,6 +66,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/BestTaskDeploy.dir/DependInfo.cmake"
   "CMakeFiles/longestIncreasingSubSequence.dir/DependInfo.cmake"
   "CMakeFiles/bag01.dir/DependInfo.cmake"
+  "CMakeFiles/backTrackBag01.dir/DependInfo.cmake"
+  "CMakeFiles/yangHuiSanJiao.dir/DependInfo.cmake"
   "CMakeFiles/RodCutting.dir/DependInfo.cmake"
   "CMakeFiles/singleLinkedListHuiWenVertify.dir/DependInfo.cmake"
   "CMakeFiles/yueSeFuHuan.dir/DependInfo.cmake"
