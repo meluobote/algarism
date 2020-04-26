@@ -382,6 +382,19 @@ pile/fast:
 	$(MAKE) -f CMakeFiles\pile.dir\build.make CMakeFiles/pile.dir/build
 .PHONY : pile/fast
 
+#=============================================================================
+# Target rules for targets named EditDistance
+
+# Build rule for target.
+EditDistance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 EditDistance
+.PHONY : EditDistance
+
+# fast build rule for target.
+EditDistance/fast:
+	$(MAKE) -f CMakeFiles\EditDistance.dir\build.make CMakeFiles/EditDistance.dir/build
+.PHONY : EditDistance/fast
+
 LinkedList/singleLinkedListHuiWenVertify.obj: LinkedList/singleLinkedListHuiWenVertify.cpp.obj
 
 .PHONY : LinkedList/singleLinkedListHuiWenVertify.obj
@@ -570,6 +583,33 @@ dynamicPro/BestTaskDeploy.s: dynamicPro/BestTaskDeploy.cpp.s
 dynamicPro/BestTaskDeploy.cpp.s:
 	$(MAKE) -f CMakeFiles\BestTaskDeploy.dir\build.make CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.s
 .PHONY : dynamicPro/BestTaskDeploy.cpp.s
+
+dynamicPro/EditDistance.obj: dynamicPro/EditDistance.cpp.obj
+
+.PHONY : dynamicPro/EditDistance.obj
+
+# target to build an object file
+dynamicPro/EditDistance.cpp.obj:
+	$(MAKE) -f CMakeFiles\EditDistance.dir\build.make CMakeFiles/EditDistance.dir/dynamicPro/EditDistance.cpp.obj
+.PHONY : dynamicPro/EditDistance.cpp.obj
+
+dynamicPro/EditDistance.i: dynamicPro/EditDistance.cpp.i
+
+.PHONY : dynamicPro/EditDistance.i
+
+# target to preprocess a source file
+dynamicPro/EditDistance.cpp.i:
+	$(MAKE) -f CMakeFiles\EditDistance.dir\build.make CMakeFiles/EditDistance.dir/dynamicPro/EditDistance.cpp.i
+.PHONY : dynamicPro/EditDistance.cpp.i
+
+dynamicPro/EditDistance.s: dynamicPro/EditDistance.cpp.s
+
+.PHONY : dynamicPro/EditDistance.s
+
+# target to generate assembly for a file
+dynamicPro/EditDistance.cpp.s:
+	$(MAKE) -f CMakeFiles\EditDistance.dir\build.make CMakeFiles/EditDistance.dir/dynamicPro/EditDistance.cpp.s
+.PHONY : dynamicPro/EditDistance.cpp.s
 
 dynamicPro/RodCutting.obj: dynamicPro/RodCutting.cpp.obj
 
@@ -1008,6 +1048,7 @@ help:
 	@echo ... yueSeFuHuan
 	@echo ... addSubMulDiv
 	@echo ... pile
+	@echo ... EditDistance
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.obj
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.i
 	@echo ... LinkedList/singleLinkedListHuiWenVertify.s
@@ -1029,6 +1070,9 @@ help:
 	@echo ... dynamicPro/BestTaskDeploy.obj
 	@echo ... dynamicPro/BestTaskDeploy.i
 	@echo ... dynamicPro/BestTaskDeploy.s
+	@echo ... dynamicPro/EditDistance.obj
+	@echo ... dynamicPro/EditDistance.i
+	@echo ... dynamicPro/EditDistance.s
 	@echo ... dynamicPro/RodCutting.obj
 	@echo ... dynamicPro/RodCutting.i
 	@echo ... dynamicPro/RodCutting.s
