@@ -12,7 +12,7 @@
 using namespace std;
 void optimalMatricsMultiply(vector<pair<int,int>> vp){
     int mszie=vp.size();
-    vector<vector<int>> vp(vp.size(),vector<int>(vp.size()))
+    vector<vector<int>> dp(vp.size(),vector<int>(vp.size(), 0));
 }
 
 int main() {
