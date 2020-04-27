@@ -175,6 +175,19 @@ DFSandBFS/fast:
 .PHONY : DFSandBFS/fast
 
 #=============================================================================
+# Target rules for targets named MatricsMultiply
+
+# Build rule for target.
+MatricsMultiply: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 MatricsMultiply
+.PHONY : MatricsMultiply
+
+# fast build rule for target.
+MatricsMultiply/fast:
+	$(MAKE) -f CMakeFiles\MatricsMultiply.dir\build.make CMakeFiles/MatricsMultiply.dir/build
+.PHONY : MatricsMultiply/fast
+
+#=============================================================================
 # Target rules for targets named eightQueen
 
 # Build rule for target.
@@ -611,6 +624,33 @@ dynamicPro/EditDistance.cpp.s:
 	$(MAKE) -f CMakeFiles\EditDistance.dir\build.make CMakeFiles/EditDistance.dir/dynamicPro/EditDistance.cpp.s
 .PHONY : dynamicPro/EditDistance.cpp.s
 
+dynamicPro/MatricsMultiply.obj: dynamicPro/MatricsMultiply.cpp.obj
+
+.PHONY : dynamicPro/MatricsMultiply.obj
+
+# target to build an object file
+dynamicPro/MatricsMultiply.cpp.obj:
+	$(MAKE) -f CMakeFiles\MatricsMultiply.dir\build.make CMakeFiles/MatricsMultiply.dir/dynamicPro/MatricsMultiply.cpp.obj
+.PHONY : dynamicPro/MatricsMultiply.cpp.obj
+
+dynamicPro/MatricsMultiply.i: dynamicPro/MatricsMultiply.cpp.i
+
+.PHONY : dynamicPro/MatricsMultiply.i
+
+# target to preprocess a source file
+dynamicPro/MatricsMultiply.cpp.i:
+	$(MAKE) -f CMakeFiles\MatricsMultiply.dir\build.make CMakeFiles/MatricsMultiply.dir/dynamicPro/MatricsMultiply.cpp.i
+.PHONY : dynamicPro/MatricsMultiply.cpp.i
+
+dynamicPro/MatricsMultiply.s: dynamicPro/MatricsMultiply.cpp.s
+
+.PHONY : dynamicPro/MatricsMultiply.s
+
+# target to generate assembly for a file
+dynamicPro/MatricsMultiply.cpp.s:
+	$(MAKE) -f CMakeFiles\MatricsMultiply.dir\build.make CMakeFiles/MatricsMultiply.dir/dynamicPro/MatricsMultiply.cpp.s
+.PHONY : dynamicPro/MatricsMultiply.cpp.s
+
 dynamicPro/RodCutting.obj: dynamicPro/RodCutting.cpp.obj
 
 .PHONY : dynamicPro/RodCutting.obj
@@ -1031,6 +1071,7 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... DFSandBFS
+	@echo ... MatricsMultiply
 	@echo ... eightQueen
 	@echo ... binaryTree
 	@echo ... longestCommonSubSequence
@@ -1073,6 +1114,9 @@ help:
 	@echo ... dynamicPro/EditDistance.obj
 	@echo ... dynamicPro/EditDistance.i
 	@echo ... dynamicPro/EditDistance.s
+	@echo ... dynamicPro/MatricsMultiply.obj
+	@echo ... dynamicPro/MatricsMultiply.i
+	@echo ... dynamicPro/MatricsMultiply.s
 	@echo ... dynamicPro/RodCutting.obj
 	@echo ... dynamicPro/RodCutting.i
 	@echo ... dynamicPro/RodCutting.s

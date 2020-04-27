@@ -58,6 +58,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/binarySearch.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/DFSandBFS.dir/DependInfo.cmake"
+  "CMakeFiles/MatricsMultiply.dir/DependInfo.cmake"
   "CMakeFiles/eightQueen.dir/DependInfo.cmake"
   "CMakeFiles/binaryTree.dir/DependInfo.cmake"
   "CMakeFiles/longestCommonSubSequence.dir/DependInfo.cmake"
