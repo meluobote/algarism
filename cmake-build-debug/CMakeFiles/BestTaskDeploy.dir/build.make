@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,15 +59,15 @@ include CMakeFiles/BestTaskDeploy.dir/flags.make
 CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.obj: CMakeFiles/BestTaskDeploy.dir/flags.make
 CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.obj: ../dynamicPro/BestTaskDeploy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.obj"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BestTaskDeploy.dir\dynamicPro\BestTaskDeploy.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\BestTaskDeploy.cpp
+	F:\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BestTaskDeploy.dir\dynamicPro\BestTaskDeploy.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\BestTaskDeploy.cpp
 
 CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.i"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\BestTaskDeploy.cpp > CMakeFiles\BestTaskDeploy.dir\dynamicPro\BestTaskDeploy.cpp.i
+	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\BestTaskDeploy.cpp > CMakeFiles\BestTaskDeploy.dir\dynamicPro\BestTaskDeploy.cpp.i
 
 CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BestTaskDeploy.dir/dynamicPro/BestTaskDeploy.cpp.s"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\BestTaskDeploy.cpp -o CMakeFiles\BestTaskDeploy.dir\dynamicPro\BestTaskDeploy.cpp.s
+	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\BestTaskDeploy.cpp -o CMakeFiles\BestTaskDeploy.dir\dynamicPro\BestTaskDeploy.cpp.s
 
 # Object files for target BestTaskDeploy
 BestTaskDeploy_OBJECTS = \

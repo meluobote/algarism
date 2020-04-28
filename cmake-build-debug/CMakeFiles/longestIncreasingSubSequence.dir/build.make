@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "F:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,15 +59,15 @@ include CMakeFiles/longestIncreasingSubSequence.dir/flags.make
 CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj: CMakeFiles/longestIncreasingSubSequence.dir/flags.make
 CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj: ../dynamicPro/longestIncreasingSubSequence.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cplusplus\algarism\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.obj"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\longestIncreasingSubSequence.dir\dynamicPro\longestIncreasingSubSequence.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\longestIncreasingSubSequence.cpp
+	F:\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\longestIncreasingSubSequence.dir\dynamicPro\longestIncreasingSubSequence.cpp.obj -c D:\code\cplusplus\algarism\dynamicPro\longestIncreasingSubSequence.cpp
 
 CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.i"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\longestIncreasingSubSequence.cpp > CMakeFiles\longestIncreasingSubSequence.dir\dynamicPro\longestIncreasingSubSequence.cpp.i
+	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cplusplus\algarism\dynamicPro\longestIncreasingSubSequence.cpp > CMakeFiles\longestIncreasingSubSequence.dir\dynamicPro\longestIncreasingSubSequence.cpp.i
 
 CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/longestIncreasingSubSequence.dir/dynamicPro/longestIncreasingSubSequence.cpp.s"
-	"D:\Program Files\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\longestIncreasingSubSequence.cpp -o CMakeFiles\longestIncreasingSubSequence.dir\dynamicPro\longestIncreasingSubSequence.cpp.s
+	F:\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cplusplus\algarism\dynamicPro\longestIncreasingSubSequence.cpp -o CMakeFiles\longestIncreasingSubSequence.dir\dynamicPro\longestIncreasingSubSequence.cpp.s
 
 # Object files for target longestIncreasingSubSequence
 longestIncreasingSubSequence_OBJECTS = \

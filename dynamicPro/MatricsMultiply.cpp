@@ -11,26 +11,45 @@
 
 using namespace std;
 
-void optimalMatricsMultiply(vector<pair<int, int>> vp) {
-    int szie = vp.size();
+void printStrategy(vector<vector<int>>& strategy, vector<pair<int, int>>& vp, int i, int j) {
+    //strategy的行数和列数相等
+    if(i==j){
+        cout<<"A"<<i;
+    }else{
+        cout<<"(";
+        printStrategy(strategy, vp, i, strategy[i][j]);
+        printStrategy(strategy, vp, strategy[i][j]+1,j);
+        cout<<")";
+    }
+}
+
+void optimalMatricsMultiply(vector<pair<int, int>>& vp) {
+    int size = vp.size();
     vector<vector<int>> dp(vp.size(), vector<int>(vp.size(), 0));
+    vector<vector<int>> strategy(vp.size(), vector<int>(vp.size(), 0));
     for (int i = 0; i < size; i++) {
         dp[i][i] = 0;
     }
     for (int len = 1; len <= size - 1; len++) {
         for (int i = 0; i < size - len; i++) {
-            m[i][i + len] = INT_MAX;
+            dp[i][i + len] = INT_MAX;
             for (int j = 0; j < len; j++) {
-                int count=m[i][i+j]+m[i+j+1][i+len]+vp[i].first*vp[i+j].second*vp[i+len].second;
-                if(count<)
+                int count = dp[i][i + j] + dp[i + j + 1][i + len] + vp[i].first * vp[i + j].second * vp[i + len].second;
+                if (count < dp[i][i + len]) {
+                    dp[i][i + len] = count;
+                    strategy[i][i + len] = i + j;
+                }
             }
         }
     }
-    for (int i = 0; i < size; i++) {
-        for (int j = i + 1; j < size - i; j++) {
-
-        }
-    }
+    cout << "min count: " << dp[0][size - 1] << endl;
+//    for(int i=0;i<strategy.size();i++){
+//        for(int j=0;j<strategy.size();j++){
+//            cout<<strategy[i][j]<<" ";
+//        }
+//        cout<<endl;
+//    }
+    printStrategy(strategy, vp, 0, size-1);
 }
 
 int main() {
@@ -40,5 +59,5 @@ int main() {
                               {5,  10},
                               {10, 20},
                               {20, 25}};
-
+    optimalMatricsMultiply(vp);
 }
