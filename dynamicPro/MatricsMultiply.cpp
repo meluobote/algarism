@@ -10,12 +10,35 @@
 #include <iostream>
 
 using namespace std;
-void optimalMatricsMultiply(vector<pair<int,int>> vp){
-    int mszie=vp.size();
-    vector<vector<int>> dp(vp.size(),vector<int>(vp.size(), 0));
+
+void optimalMatricsMultiply(vector<pair<int, int>> vp) {
+    int szie = vp.size();
+    vector<vector<int>> dp(vp.size(), vector<int>(vp.size(), 0));
+    for (int i = 0; i < size; i++) {
+        dp[i][i] = 0;
+    }
+    for (int len = 1; len <= size - 1; len++) {
+        for (int i = 0; i < size - len; i++) {
+            m[i][i + len] = INT_MAX;
+            for (int j = 0; j < len; j++) {
+                int count=m[i][i+j]+m[i+j+1][i+len]+vp[i].first*vp[i+j].second*vp[i+len].second;
+                if(count<)
+            }
+        }
+    }
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size - i; j++) {
+
+        }
+    }
 }
 
 int main() {
-    vector<pair<int,int>> vp{{30,35},{35,15},{15,5},{5,10},{10,20},{20,25}};
+    vector<pair<int, int>> vp{{30, 35},
+                              {35, 15},
+                              {15, 5},
+                              {5,  10},
+                              {10, 20},
+                              {20, 25}};
 
 }
